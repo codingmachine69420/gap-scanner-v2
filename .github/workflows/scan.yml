@@ -16,9 +16,14 @@ on:
   workflow_dispatch:
     inputs:
       force:
+        # Default false so a manual run behaves exactly like a scheduled one:
+        # guard, idempotency, then sleep to 09:45:30. Setting it true captures
+        # at whatever time you dispatch, which the freshness assertion will
+        # correctly call red outside the capture window -- correct bars that
+        # arrive after the reader are still a miss.
         description: "Bypass the guard and the sleep-to-target (capture now)"
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write

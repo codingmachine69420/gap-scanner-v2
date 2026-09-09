@@ -14,11 +14,23 @@ The distinction it has to get right:
                        is no fresh data because there was nothing to capture.
 
   silent no-op      -> RED. scan.py said it captured, but the committed
-                       data/latest.json is not today's, or was written more
-                       than MAX_AS_OF_AGE ago. Also red if the status file is
-                       missing or unreadable, since then we cannot tell which
-                       case we are in -- and "cannot tell" is exactly the
-                       failure mode this whole step exists to end.
+                       data/latest.json is not today's session, or was not
+                       captured at the capture instant. Also red if the status
+                       file is missing or unreadable, since then we cannot
+                       tell which case we are in -- and "cannot tell" is
+                       exactly the failure mode this whole step exists to end.
+
+as_of is measured against 09:45:30 ET on session_date, not against the moment
+this check runs. The difference matters, and it is the whole point: the old
+scanner's schedule started arriving hours late, so a run would begin at 12:47,
+fetch the 09:30-09:45 bars -- which are historical, and correct -- and commit
+them. Checked against "now", that run looks perfectly fresh. It is not. The
+09:50 ET reader had already fired three hours earlier on yesterday's file, so
+correct data delivered at 12:47 is worth exactly nothing. Anchoring to the
+capture target is what makes that failure visible instead of green.
+
+The target is taken from scan.CAPTURE_TARGET_TIME, so moving the capture moves
+this assertion with it and the two cannot drift apart.
 
 scan.py writes its exit reason to $SCAN_STATUS_FILE; this reads it. The data
 is read from the commit (git show HEAD:...), not the working tree, so the
@@ -31,7 +43,7 @@ import json
 import os
 import subprocess
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -39,12 +51,20 @@ import scan
 
 ET = ZoneInfo("America/New_York")
 
-# as_of must be within this of the moment we check. The capture is at
-# 09:45:30 and this step runs seconds later; 30 minutes is slack for a slow
-# runner, not a tolerance for stale data.
-MAX_AS_OF_AGE_SECONDS = 30 * 60
+# How far as_of may sit from the capture target before the run goes red. The
+# capture is a sleep-to-target, so in a healthy run the drift is seconds: this
+# is slack for a slow runner and a slow bar fetch, not a tolerance for late
+# delivery. A run that captures outside 09:30:30-10:00:30 ET has missed the
+# reader it exists to feed.
+MAX_AS_OF_DRIFT_SECONDS = 15 * 60
 
 COMMITTED_DATA_REF = "HEAD:data/latest.json"
+
+
+def capture_target(session: date) -> datetime:
+    """The instant the capture was supposed to happen on that session.
+    Derived from scan.py's own constant so the two cannot drift."""
+    return datetime.combine(session, scan.CAPTURE_TARGET_TIME, ET)
 
 
 def read_status() -> dict | None:
@@ -111,15 +131,20 @@ def check(status: dict | None, payload: dict | None,
     if as_of.tzinfo is None:
         as_of = as_of.replace(tzinfo=ET)
 
-    age = abs((now_et - as_of).total_seconds())
-    if age > MAX_AS_OF_AGE_SECONDS:
-        return 1, (f"Committed data is not fresh. as_of={as_of_raw!r} is "
-                   f"{age / 60:.1f} minutes from now "
-                   f"({now_et.isoformat()}), limit is "
-                   f"{MAX_AS_OF_AGE_SECONDS / 60:.0f} minutes.")
+    # session_date == today was established above, so this parse cannot fail.
+    target = capture_target(date.fromisoformat(session_date))
+    drift = abs((as_of - target).total_seconds())
+    if drift > MAX_AS_OF_DRIFT_SECONDS:
+        return 1, (f"Committed data was captured at the wrong time of day. "
+                   f"as_of={as_of_raw!r} is {drift / 60:.1f} minutes from the "
+                   f"{target.isoformat()} capture target, limit is "
+                   f"{MAX_AS_OF_DRIFT_SECONDS / 60:.0f} minutes. The bars may "
+                   f"be correct, but they landed after the reader that needs "
+                   f"them.")
 
-    return 0, (f"Fresh: session_date={session_date}, as_of={as_of_raw} "
-               f"({age / 60:.1f} minutes old).")
+    return 0, (f"Fresh: session_date={session_date}, as_of={as_of_raw}, "
+               f"{drift / 60:.1f} minutes from the {target.isoformat()} "
+               f"capture target.")
 
 
 def main() -> int:

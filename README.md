@@ -69,7 +69,17 @@ is missed.**
 The previous scanner produced 142 green runs while committing nothing, because
 nothing ever checked. The last step of the job is `verify.py`, which reads the
 *committed* `data/latest.json` and exits non-zero unless `session_date` is
-today in `America/New_York` and `as_of` is within 30 minutes of now.
+today in `America/New_York` and `as_of` is within **15 minutes of 09:45:30 ET
+on that session** — the capture target itself, taken from
+`scan.CAPTURE_TARGET_TIME` so the two cannot drift apart.
+
+Anchoring to the target rather than to "now" is deliberate. What actually
+broke the previous scanner was late delivery: from 2026-08-27 its schedule
+began arriving three to ten hours late, so the job would start at 12:47, fetch
+the 09:30–09:45 bars — historical, and entirely correct — and commit them.
+Measured against "now" that run looks perfectly fresh. It is useless: the
+09:50 ET reader fired three hours earlier on yesterday's file. Correct data
+that arrives after the thing that reads it is a miss, and it goes red.
 
 It has to tell two things apart:
 
@@ -78,11 +88,16 @@ It has to tell two things apart:
   `already_captured_today`. There was nothing to capture, so there is nothing
   to assert.
 - **silent no-op → red.** `scan.py` claimed a capture and the committed file
-  is not today's, or is stale — or no status was recorded at all, in which
-  case we cannot tell which case we are in, and "cannot tell" is precisely the
-  failure this step exists to end.
+  is not today's session, or was not captured at the capture instant — or no
+  status was recorded at all, in which case we cannot tell which case we are
+  in, and "cannot tell" is precisely the failure this step exists to end.
 
 It fails the run. It does not retry, heal, dispatch, or notify.
+
+Manual dispatch defaults to `force: false`, so it takes the same path a
+scheduled run does — guard, idempotency, sleep to 09:45:30. `force: true`
+captures immediately, and outside the capture window that run will go red,
+which is the assertion doing its job rather than a bug.
 
 ## Local
 

@@ -8,19 +8,21 @@ from __future__ import annotations
 import json
 import os
 import unittest
-from datetime import datetime, timedelta
+from datetime import date, datetime, time as dtime, timedelta
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
 import scan
 import verify
 
-NOW = datetime(2026, 9, 9, 9, 45, 40, tzinfo=verify.ET)
+# The capture instant on the session under test, and a moment just after it.
+TARGET = datetime(2026, 9, 9, 9, 45, 30, tzinfo=verify.ET)
+NOW = TARGET + timedelta(seconds=10)
 
 
 def _payload(session_date="2026-09-09", as_of=None) -> dict:
     return {"session_date": session_date,
-            "as_of": (as_of or NOW - timedelta(seconds=10)).isoformat()}
+            "as_of": (as_of or TARGET).isoformat()}
 
 
 def _captured() -> dict:
@@ -69,14 +71,28 @@ class SilentNoOpGoesRedTests(unittest.TestCase):
         self.assertIn("2026-09-08", message)   # names the value found
         self.assertIn("2026-09-09", message)   # and the value expected
 
-    def test_captured_but_as_of_is_hours_old_is_red(self):
+    def test_the_late_delivery_case_is_red(self):
+        # The failure this assertion exists for. GitHub delivers the schedule
+        # three hours late; the job starts at 12:47, fetches the 09:30-09:45
+        # bars -- historical, and entirely correct -- and commits them under
+        # today's session_date. Measured against "now" this looks perfectly
+        # fresh. It is useless: the 09:50 reader fired three hours earlier on
+        # yesterday's file. It must be red.
+        late = _payload(as_of=datetime(2026, 9, 9, 12, 47, 0, tzinfo=verify.ET))
+        now = datetime(2026, 9, 9, 12, 47, 30, tzinfo=verify.ET)
+        code, message = verify.check(_captured(), late, now)
+        self.assertEqual(code, 1)
+        self.assertIn(late["as_of"], message)
+        self.assertIn("181.5 minutes", message)   # 09:45:30 -> 12:47:00
+
+    def test_captured_but_as_of_is_hours_before_the_target_is_red(self):
         stale = _payload(as_of=NOW - timedelta(hours=3))
         code, message = verify.check(_captured(), stale, NOW)
         self.assertEqual(code, 1)
         self.assertIn(stale["as_of"], message)
-        self.assertIn("180.0 minutes", message)
+        self.assertIn("179.8 minutes", message)
 
-    def test_captured_but_as_of_is_far_in_the_future_is_red(self):
+    def test_captured_but_as_of_is_far_after_the_target_is_red(self):
         code, _ = verify.check(_captured(),
                                _payload(as_of=NOW + timedelta(hours=2)), NOW)
         self.assertEqual(code, 1)
@@ -94,27 +110,63 @@ class SilentNoOpGoesRedTests(unittest.TestCase):
 
 
 class FreshCaptureIsGreenTests(unittest.TestCase):
-    def test_todays_session_written_seconds_ago(self):
+    def test_captured_at_the_target_instant(self):
         code, message = verify.check(_captured(), _payload(), NOW)
         self.assertEqual(code, 0, message)
 
-    def test_just_inside_the_thirty_minute_limit(self):
-        limit = verify.MAX_AS_OF_AGE_SECONDS
-        fresh = _payload(as_of=NOW - timedelta(seconds=limit - 1))
+    def test_a_slow_bar_fetch_still_passes(self):
+        # The healthy drift: the sleep wakes at 09:45:30 and the fetch, the
+        # earnings join and the write take a couple of minutes.
+        slow = _payload(as_of=TARGET + timedelta(minutes=2))
+        code, message = verify.check(_captured(), slow,
+                                     TARGET + timedelta(minutes=3))
+        self.assertEqual(code, 0, message)
+
+    def test_just_inside_the_limit(self):
+        limit = verify.MAX_AS_OF_DRIFT_SECONDS
+        fresh = _payload(as_of=TARGET + timedelta(seconds=limit - 1))
         self.assertEqual(verify.check(_captured(), fresh, NOW)[0], 0)
 
-    def test_just_outside_the_thirty_minute_limit(self):
-        limit = verify.MAX_AS_OF_AGE_SECONDS
-        stale = _payload(as_of=NOW - timedelta(seconds=limit + 1))
-        self.assertEqual(verify.check(_captured(), stale, NOW)[0], 1)
+    def test_just_outside_the_limit(self):
+        limit = verify.MAX_AS_OF_DRIFT_SECONDS
+        for offset in (limit + 1, -(limit + 1)):
+            with self.subTest(offset=offset):
+                stale = _payload(as_of=TARGET + timedelta(seconds=offset))
+                self.assertEqual(verify.check(_captured(), stale, NOW)[0], 1)
 
     def test_naive_as_of_is_read_as_eastern(self):
         naive = {"session_date": "2026-09-09",
                  "as_of": NOW.replace(tzinfo=None).isoformat()}
         self.assertEqual(verify.check(_captured(), naive, NOW)[0], 0)
 
-    def test_limit_is_thirty_minutes(self):
-        self.assertEqual(verify.MAX_AS_OF_AGE_SECONDS, 30 * 60)
+    def test_limit_is_fifteen_minutes(self):
+        self.assertEqual(verify.MAX_AS_OF_DRIFT_SECONDS, 15 * 60)
+
+
+class TargetIsDerivedFromScanTests(unittest.TestCase):
+    """The assertion's target and the capture's target are one constant. If
+    they could drift, this step would eventually be asserting against a time
+    the scanner no longer captures at -- the same class of bug as a window
+    label hardcoded next to the code that computes it."""
+
+    def test_target_is_scans_capture_time_on_the_session(self):
+        self.assertEqual(verify.capture_target(date(2026, 9, 9)),
+                         datetime(2026, 9, 9, 9, 45, 30, tzinfo=verify.ET))
+        self.assertEqual(verify.capture_target(date(2026, 9, 9)).timetz().replace(tzinfo=None),
+                         scan.CAPTURE_TARGET_TIME)
+
+    def test_moving_the_capture_moves_the_assertion(self):
+        original = scan.CAPTURE_TARGET_TIME
+        try:
+            scan.CAPTURE_TARGET_TIME = dtime(10, 15, 0)
+            # as_of at the old target is now three-quarters of an hour out.
+            self.assertEqual(verify.check(_captured(), _payload(), NOW)[0], 1)
+            # as_of at the new target passes.
+            moved = _payload(as_of=datetime(2026, 9, 9, 10, 15, 5,
+                                            tzinfo=verify.ET))
+            self.assertEqual(verify.check(_captured(), moved, NOW)[0], 0)
+        finally:
+            scan.CAPTURE_TARGET_TIME = original
 
 
 class ReadStatusTests(unittest.TestCase):
