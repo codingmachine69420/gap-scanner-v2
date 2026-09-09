@@ -1,0 +1,139 @@
+{
+ "as_of": "2026-09-09T11:30:55.727191-04:00",
+ "session_date": "2026-09-09",
+ "prior_session_date": "2026-09-08",
+ "universe_size": 983,
+ "symbols_with_bars": 956,
+ "thresholds": {
+  "min_market_cap": 10000000000.0,
+  "min_gap": 0.05,
+  "reversal": 0.02
+ },
+ "data_sources": {
+  "universe": "nasdaq_screener",
+  "bars": "alpaca_iex",
+  "earnings": "nasdaq_calendar"
+ },
+ "data_caveat": "Bars are Alpaca free-tier IEX feed (~5-10% of consolidated volume). Prices are representative for large caps; volume is indicative only.",
+ "warnings": [],
+ "or_window": "09:30-09:45 ET",
+ "windows": {
+  "gap": "prior close 16:00 ET -> 09:30 open",
+  "opening_range": "09:30 -> 09:45 ET",
+  "reversal": "09:30 -> 09:45 ET"
+ },
+ "movers": [
+  {
+   "ticker": "CASY",
+   "name": "Casey's General Stores Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 22998924100.0,
+   "prior_close": 734.76,
+   "premkt_last": null,
+   "premkt_move": null,
+   "premkt_bar_count": 0,
+   "open_930": 625.16,
+   "or_close": 607.045,
+   "gap_pct": -0.14916,
+   "move_or": -0.02898,
+   "or_range_pct": 0.03064,
+   "or_high": 625.16,
+   "or_low": 606.005,
+   "volume_or": 17757,
+   "reversal": false,
+   "earnings": {
+    "reported": true,
+    "timing": "UNKNOWN",
+    "date": "2026-09-08",
+    "eps_actual": "$7.37",
+    "eps_estimate": "$6.60",
+    "surprise_pct": "11.67"
+   }
+  },
+  {
+   "ticker": "CHYM",
+   "name": "Chime Financial Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12799962603.0,
+   "prior_close": 32.29,
+   "premkt_last": null,
+   "premkt_move": null,
+   "premkt_bar_count": 0,
+   "open_930": 35.35,
+   "or_close": 34.6,
+   "gap_pct": 0.09477,
+   "move_or": -0.02122,
+   "or_range_pct": 0.04187,
+   "or_high": 35.45,
+   "or_low": 33.97,
+   "volume_or": 120885,
+   "reversal": true,
+   "earnings": {
+    "reported": false,
+    "timing": null,
+    "date": null,
+    "eps_actual": null,
+    "eps_estimate": null,
+    "surprise_pct": null
+   }
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 1671558947065.0,
+   "prior_close": 613.36,
+   "premkt_last": 645.84,
+   "premkt_move": 0.05295,
+   "premkt_bar_count": 1,
+   "open_930": 648.35,
+   "or_close": 646.35,
+   "gap_pct": 0.05705,
+   "move_or": -0.00308,
+   "or_range_pct": 0.02019,
+   "or_high": 651.8,
+   "or_low": 638.71,
+   "volume_or": 192026,
+   "reversal": false,
+   "earnings": {
+    "reported": false,
+    "timing": null,
+    "date": null,
+    "eps_actual": null,
+    "eps_estimate": null,
+    "surprise_pct": null
+   }
+  },
+  {
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 13856910587.0,
+   "prior_close": 17.27,
+   "premkt_last": null,
+   "premkt_move": null,
+   "premkt_bar_count": 0,
+   "open_930": 18.225,
+   "or_close": 17.74,
+   "gap_pct": 0.0553,
+   "move_or": -0.02661,
+   "or_range_pct": 0.0406,
+   "or_high": 18.26,
+   "or_low": 17.52,
+   "volume_or": 25896,
+   "reversal": true,
+   "earnings": {
+    "reported": false,
+    "timing": null,
+    "date": null,
+    "eps_actual": null,
+    "eps_estimate": null,
+    "surprise_pct": null
+   }
+  }
+ ]
+}
