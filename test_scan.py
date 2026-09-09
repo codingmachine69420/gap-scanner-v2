@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import unittest
 from datetime import date, datetime, time as dtime
 from pathlib import Path
@@ -49,21 +50,45 @@ class SecondsUntilTargetTests(unittest.TestCase):
 
 
 class SafetyCapTests(unittest.TestCase):
-    """MAX_SLEEP_SECONDS must clear every start time the guard allows, or a
-    legitimately early start fails itself with the safety-cap error."""
+    """MAX_SLEEP_SECONDS must clear the wait the crons actually produce, and
+    must sit inside the workflow's own timeout so a wait that cannot finish
+    fails with a real message instead of a runner kill."""
 
     def test_cron_start_wait_is_within_cap(self):
         now = datetime(2026, 8, 18, 9, 23, 0, tzinfo=scan.ET)
         self.assertLessEqual(scan.seconds_until_target(now),
                              scan.MAX_SLEEP_SECONDS)
 
-    def test_earliest_guard_legal_start_is_within_cap(self):
-        # 08:30 ET is the earliest start the guard admits: 75.5 minutes of
-        # wait. Anything longer than the cap means the time logic is broken.
+    def test_cap_fits_inside_the_workflow_timeout(self):
+        # Cross-file invariant. A sleep longer than the job's timeout is not a
+        # longer wait, it is a job killed mid-sleep with a runner timeout
+        # message that says nothing about the cause. The cap must fail fast
+        # first, with room left for pip install, the universe fetch and the
+        # capture.
+        workflow = (Path(__file__).parent / ".github" / "workflows" /
+                    "scan.yml").read_text(encoding="utf-8")
+        timeout_minutes = int(re.search(r"^\s*timeout-minutes:\s*(\d+)\s*$",
+                                        workflow, re.M).group(1))
+        headroom = timeout_minutes * 60 - scan.MAX_SLEEP_SECONDS
+        self.assertGreaterEqual(
+            headroom, 10 * 60,
+            f"MAX_SLEEP_SECONDS leaves only {headroom / 60:.0f} min of the "
+            f"{timeout_minutes} min job timeout for the capture itself")
+
+    def test_earliest_reachable_start_is_within_cap(self):
+        # The guard admits starts from 08:30 ET, but a start that early cannot
+        # reach the target inside the job timeout. 08:56 is the earliest that
+        # can, and it must not trip the cap.
+        now = datetime(2026, 8, 18, 8, 56, 0, tzinfo=scan.ET)
+        self.assertLessEqual(scan.seconds_until_target(now),
+                             scan.MAX_SLEEP_SECONDS)
+
+    def test_a_start_too_early_to_finish_trips_the_cap(self):
+        # 08:30 ET: 75.5 minutes of wait, past both the cap and the timeout.
         now = datetime(2026, 8, 18, 8, 30, 0, tzinfo=scan.ET)
         wait = scan.seconds_until_target(now)
         self.assertAlmostEqual(wait, 75.5 * 60, delta=1)
-        self.assertLessEqual(wait, scan.MAX_SLEEP_SECONDS)
+        self.assertGreater(wait, scan.MAX_SLEEP_SECONDS)
 
 
 class SkipReasonTests(unittest.TestCase):
