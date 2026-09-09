@@ -1,0 +1,78 @@
+name: Gap Scan
+
+# One capture per trading day, at 09:45:30 ET.
+#
+# Two crons, and only two. GitHub cron is UTC, so one entry lands on 09:23 ET
+# in EDT and the other in EST; whichever is the wrong season for today exits
+# on scan.py's guard (EST morning) or on its idempotency check (EDT morning,
+# where the wrong-season cron fires at 10:23 ET and finds today's file already
+# committed). There are deliberately no backup crons, no watchdog, and no
+# retry. If a day is missed, it is missed.
+
+on:
+  schedule:
+    - cron: "23 13 * * 1-5"    # 09:23 ET during EDT
+    - cron: "23 14 * * 1-5"    # 09:23 ET during EST
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Bypass the guard and the sleep-to-target (capture now)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gap-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    # Job starts ~09:23 ET and sleeps ~22 minutes to the capture instant.
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Capture
+        env:
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          FORCE_RUN: ${{ inputs.force && '1' || '0' }}
+          MIN_GAP: "0.05"
+          SCAN_STATUS_FILE: ${{ runner.temp }}/scan-status.json
+        run: python scan.py
+
+      - name: Commit
+        run: |
+          git config user.name  "gap-scanner[bot]"
+          git config user.email "gap-scanner@users.noreply.github.com"
+          # Both paths are absent on a fresh repo and on any skipped run, and
+          # `git add` errors on a pathspec that matches nothing.
+          for path in data universe.json; do
+            if [ -e "$path" ]; then git add "$path"; fi
+          done
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "scan: $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
+
+      # The whole reason this repo exists in its current form. A run that
+      # produced no fresh data must go red -- unless scan.py recorded that it
+      # skipped on purpose. See verify.py.
+      - name: Assert freshness
+        env:
+          SCAN_STATUS_FILE: ${{ runner.temp }}/scan-status.json
+        run: python verify.py
