@@ -84,17 +84,17 @@ REVERSAL_THRESHOLD = 0.02
 GUARD_WINDOW_START = dtime(8, 30)
 GUARD_WINDOW_END = dtime(14, 0)
 
-# The job's crons start it at ~09:23 ET, so the real wait is ~22 minutes.
+# The crons start the job at ~08:35 ET, so the real wait is ~70 minutes; the
+# external daily trigger starts it at ~09:15, a ~30 minute wait.
 #
-# The cap is set from the workflow's timeout-minutes (60), not from the guard
-# window. The guard admits starts from 08:30 ET, which is a 75-minute wait --
-# longer than the job is allowed to live. Sleeping into that is not a longer
-# wait, it is a job killed mid-sleep with a runner timeout message and nothing
-# about the actual cause. Failing fast at 50 minutes leaves 10 minutes for the
-# pip install, the universe fetch and the capture itself, and says plainly in
-# the log why it stopped. test_scan.py asserts this stays under the workflow's
-# own timeout.
-MAX_SLEEP_SECONDS = 50 * 60
+# The cap is set from the workflow's timeout-minutes (90), not from the guard
+# window: a sleep longer than the job may live is not a longer wait, it is a
+# job killed mid-sleep with a runner timeout message that says nothing about
+# the cause. Failing fast at 75 minutes leaves 15 minutes for the pip install,
+# the universe fetch and the capture itself, and says plainly in the log why
+# it stopped. test_scan.py reads timeout-minutes out of the workflow and
+# asserts the headroom, so the two cannot drift apart.
+MAX_SLEEP_SECONDS = 75 * 60
 
 # US market holidays. Extend annually -- deliberately explicit rather than a
 # dependency, since the list is short and a stale holiday's failure mode is a

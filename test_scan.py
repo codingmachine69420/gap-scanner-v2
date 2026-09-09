@@ -55,9 +55,26 @@ class SafetyCapTests(unittest.TestCase):
     fails with a real message instead of a runner kill."""
 
     def test_cron_start_wait_is_within_cap(self):
-        now = datetime(2026, 8, 18, 9, 23, 0, tzinfo=scan.ET)
+        # The crons start the job at 08:35 ET: a 70.5 minute wait.
+        now = datetime(2026, 8, 18, 8, 35, 0, tzinfo=scan.ET)
+        wait = scan.seconds_until_target(now)
+        self.assertAlmostEqual(wait, 70.5 * 60, delta=1)
+        self.assertLessEqual(wait, scan.MAX_SLEEP_SECONDS)
+
+    def test_external_trigger_start_wait_is_within_cap(self):
+        # The external daily trigger starts it at ~09:15 ET.
+        now = datetime(2026, 8, 18, 9, 15, 0, tzinfo=scan.ET)
         self.assertLessEqual(scan.seconds_until_target(now),
                              scan.MAX_SLEEP_SECONDS)
+
+    def test_a_delayed_cron_start_is_still_absorbed(self):
+        # The point of starting at 08:35: GitHub routinely delivers the event
+        # 18-29 minutes late even when healthy. A 29 minute delay still lands
+        # well inside the cap, and the sleep still hits the target exactly.
+        now = datetime(2026, 8, 18, 9, 4, 0, tzinfo=scan.ET)
+        self.assertLessEqual(scan.seconds_until_target(now),
+                             scan.MAX_SLEEP_SECONDS)
+        self.assertGreater(scan.seconds_until_target(now), 0)
 
     def test_cap_fits_inside_the_workflow_timeout(self):
         # Cross-file invariant. A sleep longer than the job's timeout is not a
@@ -75,20 +92,14 @@ class SafetyCapTests(unittest.TestCase):
             f"MAX_SLEEP_SECONDS leaves only {headroom / 60:.0f} min of the "
             f"{timeout_minutes} min job timeout for the capture itself")
 
-    def test_earliest_reachable_start_is_within_cap(self):
-        # The guard admits starts from 08:30 ET, but a start that early cannot
-        # reach the target inside the job timeout. 08:56 is the earliest that
-        # can, and it must not trip the cap.
-        now = datetime(2026, 8, 18, 8, 56, 0, tzinfo=scan.ET)
-        self.assertLessEqual(scan.seconds_until_target(now),
-                             scan.MAX_SLEEP_SECONDS)
-
-    def test_a_start_too_early_to_finish_trips_the_cap(self):
-        # 08:30 ET: 75.5 minutes of wait, past both the cap and the timeout.
+    def test_whole_guard_window_is_now_reachable(self):
+        # With the cap at 75 minutes, every start the guard admits (08:30 ET
+        # onward, a 75.5 minute wait at the very edge) is within a minute of
+        # reachable, so a legal start no longer fails itself.
         now = datetime(2026, 8, 18, 8, 30, 0, tzinfo=scan.ET)
         wait = scan.seconds_until_target(now)
         self.assertAlmostEqual(wait, 75.5 * 60, delta=1)
-        self.assertGreater(wait, scan.MAX_SLEEP_SECONDS)
+        self.assertLess(wait - scan.MAX_SLEEP_SECONDS, 60)
 
 
 class SkipReasonTests(unittest.TestCase):

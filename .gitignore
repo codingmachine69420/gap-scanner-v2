@@ -9,3 +9,6 @@ venv/
 .DS_Store
 .vscode/
 raw_dumps/
+
+# Legacy project - never commit into v2
+old-repo/

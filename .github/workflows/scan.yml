@@ -2,17 +2,25 @@ name: Gap Scan
 
 # One capture per trading day, at 09:45:30 ET.
 #
-# Two crons, and only two. GitHub cron is UTC, so one entry lands on 09:23 ET
+# Two crons, and only two. GitHub cron is UTC, so one entry lands on 08:35 ET
 # in EDT and the other in EST; whichever is the wrong season for today exits
-# on scan.py's guard (EST morning) or on its idempotency check (EDT morning,
-# where the wrong-season cron fires at 10:23 ET and finds today's file already
-# committed). There are deliberately no backup crons, no watchdog, and no
-# retry. If a day is missed, it is missed.
+# on scan.py's guard or on its idempotency check once the other has pushed.
+# There are deliberately no backup crons, no watchdog, and no retry. If a day
+# is missed, it is missed.
+#
+# 08:35 rather than nearer the target because GitHub delivers `schedule`
+# events late -- routinely 18-29 minutes even when healthy, and ~4 hours a day
+# through 2026-08/09 (measured across two repos on this account). Starting
+# 70 minutes early lets the sleep-to-target absorb an ordinary delay instead
+# of blowing the capture. It absorbs nothing like 4 hours; that is what the
+# external daily trigger is for, and why these crons are not the primary
+# clock any more. When they do arrive on time they simply do the work first
+# and the trigger's run skips.
 
 on:
   schedule:
-    - cron: "23 13 * * 1-5"    # 09:23 ET during EDT
-    - cron: "23 14 * * 1-5"    # 09:23 ET during EST
+    - cron: "35 12 * * 1-5"    # 08:35 ET during EDT
+    - cron: "35 13 * * 1-5"    # 08:35 ET during EST
   workflow_dispatch:
     inputs:
       force:
@@ -35,8 +43,10 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    # Job starts ~09:23 ET and sleeps ~22 minutes to the capture instant.
-    timeout-minutes: 60
+    # Job starts ~08:35 ET and sleeps ~70 minutes to the capture instant.
+    # scan.py's MAX_SLEEP_SECONDS (75 min) fails fast before this fires, so a
+    # wait that cannot finish reports its own reason instead of being killed.
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v4
