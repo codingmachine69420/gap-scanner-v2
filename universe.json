@@ -1,0 +1,6846 @@
+{
+ "built_at": "2026-09-10T16:38:45.972901+00:00",
+ "source": "nasdaq_screener",
+ "count": 977,
+ "universe": [
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 5263196590000.0
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 4672034843400.0
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 4039202100000.0
+  },
+  {
+   "ticker": "GOOG",
+   "name": "Alphabet Inc. Class C Capital Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 4010950800000.0
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 3657081154318.0
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.com Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 2724353150448.0
+  },
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 2235539208771.0
+  },
+  {
+   "ticker": "SPCX",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 2057095488203.0
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 1729903735795.0
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 1662770050589.0
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 1448496111795.0
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix Inc. American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 1396870730750.0
+  },
+  {
+   "ticker": "BRK/A",
+   "name": "Berkshire Hathaway Inc.",
+   "exchange": null,
+   "sector": null,
+   "market_cap": 1115196089273.0
+  },
+  {
+   "ticker": "BRK/B",
+   "name": "Berkshire Hathaway Inc.",
+   "exchange": null,
+   "sector": null,
+   "market_cap": 1115047703790.0
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 1105822715939.0
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly and Company Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 1060721140842.0
+  },
+  {
+   "ticker": "JPM",
+   "name": "JP Morgan Chase & Co. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 936532160222.0
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 841294451396.0
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 824073401202.0
+  },
+  {
+   "ticker": "XOM",
+   "name": "ExxonMobil Holdings Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 678342116041.0
+  },
+  {
+   "ticker": "V",
+   "name": "Visa Inc.",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 655810637784.0
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML Holding N.V. New York Registry Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 654797633598.0
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 640683591505.0
+  },
+  {
+   "ticker": "GOOGM",
+   "name": "Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 578845900000.0
+  },
+  {
+   "ticker": "GOOGN",
+   "name": "Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series B Mandatory Convertible Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 577256000000.0
+  },
+  {
+   "ticker": "INTC",
+   "name": "Intel Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 533694246825.0
+  },
+  {
+   "ticker": "MA",
+   "name": "Mastercard Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 495418661468.0
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 452896455330.0
+  },
+  {
+   "ticker": "ABBV",
+   "name": "AbbVie Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 445030817054.0
+  },
+  {
+   "ticker": "BAC",
+   "name": "Bank of America Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 435438440689.0
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems Inc. Common Stock (DE)",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 427455268771.0
+  },
+  {
+   "ticker": "CVX",
+   "name": "Chevron Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 421906197850.0
+  },
+  {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 401539269984.0
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 401157710430.0
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 380581993290.0
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 377273281500.0
+  },
+  {
+   "ticker": "CAT",
+   "name": "Caterpillar Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 369082161876.0
+  },
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 363864427616.0
+  },
+  {
+   "ticker": "MRK",
+   "name": "Merck & Company Inc. Common Stock (new)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 356703675422.0
+  },
+  {
+   "ticker": "HSBC",
+   "name": "HSBC Holdings plc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 355728187169.0
+  },
+  {
+   "ticker": "UNH",
+   "name": "UnitedHealth Group Incorporated Common Stock (DE)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 350860849744.0
+  },
+  {
+   "ticker": "GE",
+   "name": "GE Aerospace Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 336886172346.0
+  },
+  {
+   "ticker": "MS",
+   "name": "Morgan Stanley Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 335834190218.0
+  },
+  {
+   "ticker": "PG",
+   "name": "Procter & Gamble Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 330836557430.0
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies Inc. Class C Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 329020318289.0
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 317250563914.0
+  },
+  {
+   "ticker": "HD",
+   "name": "Home Depot Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 306295703630.0
+  },
+  {
+   "ticker": "GS",
+   "name": "Goldman Sachs Group Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 296808486459.0
+  },
+  {
+   "ticker": "PM",
+   "name": "Philip Morris International Inc Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 294874076524.0
+  },
+  {
+   "ticker": "RY",
+   "name": "Royal Bank Of Canada Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 285400203064.0
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 278008725000.0
+  },
+  {
+   "ticker": "MUFG",
+   "name": "Mitsubishi UFJ Financial Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 276933034318.0
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings plc American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 270482845058.0
+  },
+  {
+   "ticker": "WFC",
+   "name": "Wells Fargo & Company Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 268712580997.0
+  },
+  {
+   "ticker": "RTX",
+   "name": "RTX Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 265528570740.0
+  },
+  {
+   "ticker": "SHEL",
+   "name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 265141911982.0
+  },
+  {
+   "ticker": "NVS",
+   "name": "Novartis AG Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 263534828387.0
+  },
+  {
+   "ticker": "BABA",
+   "name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 263021419404.0
+  },
+  {
+   "ticker": "SAP",
+   "name": "SAP  SE ADS",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 254171383080.0
+  },
+  {
+   "ticker": "TM",
+   "name": "Toyota Motor Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 250916224354.0
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 247812695002.0
+  },
+  {
+   "ticker": "AZN",
+   "name": "AstraZeneca PLC Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 246720640830.0
+  },
+  {
+   "ticker": "GEV",
+   "name": "GE Vernova Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 246398512462.0
+  },
+  {
+   "ticker": "ANET",
+   "name": "Arista Networks Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 239714662722.0
+  },
+  {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 237371338545.0
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 234512082081.0
+  },
+  {
+   "ticker": "C",
+   "name": "Citigroup Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 230714655134.0
+  },
+  {
+   "ticker": "CCZ",
+   "name": "Comcast Holdings ZONES",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 229490327176.0
+  },
+  {
+   "ticker": "IBM",
+   "name": "International Business Machines Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 223172794303.0
+  },
+  {
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific Inc Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 222421479893.0
+  },
+  {
+   "ticker": "BHP",
+   "name": "BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 221466985780.0
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 217780701545.0
+  },
+  {
+   "ticker": "AXP",
+   "name": "American Express Company Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 216916271458.0
+  },
+  {
+   "ticker": "LIN",
+   "name": "Linde plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 213281692015.0
+  },
+  {
+   "ticker": "SAN",
+   "name": "Banco Santander S.A. Sponsored ADR (Spain)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 211547863778.0
+  },
+  {
+   "ticker": "VZ",
+   "name": "Verizon Communications Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 207406378084.0
+  },
+  {
+   "ticker": "AMGN",
+   "name": "Amgen Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 206867430393.0
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 201297570000.0
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 200678565000.0
+  },
+  {
+   "ticker": "TTE",
+   "name": "TotalEnergies SE Ordinary Shares",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 198985796525.0
+  },
+  {
+   "ticker": "APH",
+   "name": "Amphenol Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 197511619977.0
+  },
+  {
+   "ticker": "NVO",
+   "name": "Novo Nordisk A/S Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 196710813351.0
+  },
+  {
+   "ticker": "TD",
+   "name": "Toronto Dominion Bank (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 195067546820.0
+  },
+  {
+   "ticker": "STX",
+   "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 193094101805.0
+  },
+  {
+   "ticker": "TMUS",
+   "name": "T-Mobile US Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 188500582552.0
+  },
+  {
+   "ticker": "QCOM",
+   "name": "QUALCOMM Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 187813332092.0
+  },
+  {
+   "ticker": "PEP",
+   "name": "PepsiCo Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 187249472842.0
+  },
+  {
+   "ticker": "SCHW",
+   "name": "Charles Schwab Corporation (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 184528767362.0
+  },
+  {
+   "ticker": "DE",
+   "name": "Deere & Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 182859954418.0
+  },
+  {
+   "ticker": "DIS",
+   "name": "Walt Disney Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 181051755109.0
+  },
+  {
+   "ticker": "ABT",
+   "name": "Abbott Laboratories Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 180245376028.0
+  },
+  {
+   "ticker": "MCD",
+   "name": "McDonald's Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 179549885661.0
+  },
+  {
+   "ticker": "GILD",
+   "name": "Gilead Sciences Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 179055724158.0
+  },
+  {
+   "ticker": "ADI",
+   "name": "Analog Devices Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 175422389639.0
+  },
+  {
+   "ticker": "T",
+   "name": "AT&T Inc.",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 174975667573.0
+  },
+  {
+   "ticker": "NEE",
+   "name": "NextEra Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 171926323986.0
+  },
+  {
+   "ticker": "WELL",
+   "name": "Welltower Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 170867005534.0
+  },
+  {
+   "ticker": "UNP",
+   "name": "Union Pacific Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 169531324864.0
+  },
+  {
+   "ticker": "UBS",
+   "name": "UBS Group AG Registered Ordinary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 167523435281.0
+  },
+  {
+   "ticker": "WDC",
+   "name": "Western Digital Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 165773120642.0
+  },
+  {
+   "ticker": "BLK",
+   "name": "BlackRock Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 165644287695.0
+  },
+  {
+   "ticker": "BBVA",
+   "name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 165102803907.0
+  },
+  {
+   "ticker": "COP",
+   "name": "ConocoPhillips Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 164348973815.0
+  },
+  {
+   "ticker": "SHOP",
+   "name": "Shopify Inc. Class A Subordinate Voting Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 164069112930.0
+  },
+  {
+   "ticker": "BA",
+   "name": "Boeing Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 163250927631.0
+  },
+  {
+   "ticker": "SCCO",
+   "name": "Southern Copper Corporation Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 162515301353.0
+  },
+  {
+   "ticker": "ETN",
+   "name": "Eaton Corporation PLC Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 159430432000.0
+  },
+  {
+   "ticker": "PFE",
+   "name": "Pfizer Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 156798020433.0
+  },
+  {
+   "ticker": "BUD",
+   "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 154260247484.0
+  },
+  {
+   "ticker": "UBER",
+   "name": "Uber Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 144719878205.0
+  },
+  {
+   "ticker": "GLW",
+   "name": "Corning Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 142042935782.0
+  },
+  {
+   "ticker": "DHR",
+   "name": "Danaher Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 142003182908.0
+  },
+  {
+   "ticker": "TJX",
+   "name": "TJX Companies Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 139377713269.0
+  },
+  {
+   "ticker": "SONY",
+   "name": "Sony Group Corporation American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 139058399486.0
+  },
+  {
+   "ticker": "TBB",
+   "name": "AT&T Inc. 5.350% Global Notes due 2066",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 139003493731.0
+  },
+  {
+   "ticker": "NOW",
+   "name": "ServiceNow Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 138235460000.0
+  },
+  {
+   "ticker": "PBR",
+   "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 137844996890.0
+  },
+  {
+   "ticker": "MFG",
+   "name": "Mizuho Financial Group Inc. Sponosred ADR (Japan)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 137203106772.0
+  },
+  {
+   "ticker": "UL",
+   "name": "Unilever PLC American Depositary Shares (each representing One Ordinary Share)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 133234374590.0
+  },
+  {
+   "ticker": "NEM",
+   "name": "Newmont Corporation",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 133007575368.0
+  },
+  {
+   "ticker": "BKNG",
+   "name": "Booking Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 132686282495.0
+  },
+  {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 131172364693.0
+  },
+  {
+   "ticker": "BMY",
+   "name": "Bristol-Myers Squibb Company Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 130692883691.0
+  },
+  {
+   "ticker": "CB",
+   "name": "Chubb Limited  Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 130193949417.0
+  },
+  {
+   "ticker": "PLD",
+   "name": "Prologis Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 128265202040.0
+  },
+  {
+   "ticker": "MNST",
+   "name": "Monster Beverage Corporation",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 127725405127.0
+  },
+  {
+   "ticker": "COF",
+   "name": "Capital One Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 127307305743.0
+  },
+  {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 127211888703.0
+  },
+  {
+   "ticker": "PGR",
+   "name": "Progressive Corporation (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 125207131246.0
+  },
+  {
+   "ticker": "RIO",
+   "name": "Rio Tinto Plc Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 124749752163.0
+  },
+  {
+   "ticker": "SPGI",
+   "name": "S&P Global Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 122925704000.0
+  },
+  {
+   "ticker": "CVS",
+   "name": "CVS Health Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 121937034980.0
+  },
+  {
+   "ticker": "LMT",
+   "name": "Lockheed Martin Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 121774432913.0
+  },
+  {
+   "ticker": "SMFG",
+   "name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 121217872848.0
+  },
+  {
+   "ticker": "BP",
+   "name": "BP p.l.c. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 120398619142.0
+  },
+  {
+   "ticker": "BMO",
+   "name": "Bank Of Montreal Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 120341318992.0
+  },
+  {
+   "ticker": "BTI",
+   "name": "British American Tobacco  Industries p.l.c. Common Stock ADR",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 119401635585.0
+  },
+  {
+   "ticker": "ACN",
+   "name": "Accenture plc Class A Ordinary Shares (Ireland)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 118696665542.0
+  },
+  {
+   "ticker": "PH",
+   "name": "Parker-Hannifin Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 117529181045.0
+  },
+  {
+   "ticker": "SNOW",
+   "name": "Snowflake Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 117313056000.0
+  },
+  {
+   "ticker": "FTNT",
+   "name": "Fortinet Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 117199750362.0
+  },
+  {
+   "ticker": "MDT",
+   "name": "Medtronic plc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 117060304003.0
+  },
+  {
+   "ticker": "MO",
+   "name": "Altria Group Inc.",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 114761500034.0
+  },
+  {
+   "ticker": "SBUX",
+   "name": "Starbucks Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 114000000000.0
+  },
+  {
+   "ticker": "BNS",
+   "name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 113698652525.0
+  },
+  {
+   "ticker": "EQNR",
+   "name": "Equinor ASA",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 112687215322.0
+  },
+  {
+   "ticker": "MPC",
+   "name": "Marathon Petroleum Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 112001340227.0
+  },
+  {
+   "ticker": "VLO",
+   "name": "Valero Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 111894369894.0
+  },
+  {
+   "ticker": "HDB",
+   "name": "HDFC Bank Limited Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 111730198447.0
+  },
+  {
+   "ticker": "NET",
+   "name": "Cloudflare Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 111517045144.0
+  },
+  {
+   "ticker": "PDD",
+   "name": "PDD Holdings Inc. American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 110967988178.0
+  },
+  {
+   "ticker": "LOW",
+   "name": "Lowe's Companies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 110244309463.0
+  },
+  {
+   "ticker": "BNY",
+   "name": "The Bank of New York Mellon Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 110102495532.0
+  },
+  {
+   "ticker": "SPOT",
+   "name": "Spotify Technology S.A. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 108885406783.0
+  },
+  {
+   "ticker": "ING",
+   "name": "ING Group N.V. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 106345316888.0
+  },
+  {
+   "ticker": "ADP",
+   "name": "Automatic Data Processing Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 106180384345.0
+  },
+  {
+   "ticker": "APP",
+   "name": "Applovin Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 106121178610.0
+  },
+  {
+   "ticker": "CNQ",
+   "name": "Canadian Natural Resources Limited Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 105965984800.0
+  },
+  {
+   "ticker": "ENB",
+   "name": "Enbridge Inc Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 105860826144.0
+  },
+  {
+   "ticker": "SYK",
+   "name": "Stryker Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 105202579326.0
+  },
+  {
+   "ticker": "PSX",
+   "name": "Phillips 66 Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 104236233887.0
+  },
+  {
+   "ticker": "SNY",
+   "name": "Sanofi ADS",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 104200045353.0
+  },
+  {
+   "ticker": "CM",
+   "name": "Canadian Imperial Bank of Commerce Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 103979136924.0
+  },
+  {
+   "ticker": "IBN",
+   "name": "ICICI Bank Limited Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 103105263002.0
+  },
+  {
+   "ticker": "MCK",
+   "name": "McKesson Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 102674720224.0
+  },
+  {
+   "ticker": "HOOD",
+   "name": "Robinhood Markets Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 102203177383.0
+  },
+  {
+   "ticker": "CEG",
+   "name": "Constellation Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 102120244312.0
+  },
+  {
+   "ticker": "EQIX",
+   "name": "Equinix Inc. Common Stock REIT",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 101889369680.0
+  },
+  {
+   "ticker": "ABNB",
+   "name": "Airbnb Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 101679796660.0
+  },
+  {
+   "ticker": "FCX",
+   "name": "Freeport-McMoRan Inc. Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 101612599927.0
+  },
+  {
+   "ticker": "SO",
+   "name": "Southern Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 101185926489.0
+  },
+  {
+   "ticker": "AEM",
+   "name": "Agnico Eagle Mines Limited Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 100428556869.0
+  },
+  {
+   "ticker": "ADBE",
+   "name": "Adobe Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 99526050000.0
+  },
+  {
+   "ticker": "CME",
+   "name": "CME Group Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 98546292818.0
+  },
+  {
+   "ticker": "MELI",
+   "name": "MercadoLibre Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 97460039133.0
+  },
+  {
+   "ticker": "GSK",
+   "name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 97069642848.0
+  },
+  {
+   "ticker": "TT",
+   "name": "Trane Technologies plc",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 97020320014.0
+  },
+  {
+   "ticker": "USB",
+   "name": "U.S. Bancorp Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 96692672739.0
+  },
+  {
+   "ticker": "PNC",
+   "name": "PNC Financial Services Group Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 96257127974.0
+  },
+  {
+   "ticker": "VRT",
+   "name": "Vertiv Holdings LLC Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 96042999518.0
+  },
+  {
+   "ticker": "RACE",
+   "name": "Ferrari N.V. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 95735951926.0
+  },
+  {
+   "ticker": "GD",
+   "name": "General Dynamics Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 95658201864.0
+  },
+  {
+   "ticker": "BX",
+   "name": "Blackstone Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 95224301962.0
+  },
+  {
+   "ticker": "BN",
+   "name": "Brookfield Corporation Class A Limited Voting Shares",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 93474042973.0
+  },
+  {
+   "ticker": "DUK",
+   "name": "Duke Energy Corporation (Holding Company) Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 93197803129.0
+  },
+  {
+   "ticker": "HWM",
+   "name": "Howmet Aerospace Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 91839974176.0
+  },
+  {
+   "ticker": "PWR",
+   "name": "Quanta Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 91480006377.0
+  },
+  {
+   "ticker": "ITUB",
+   "name": "Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 91244490486.0
+  },
+  {
+   "ticker": "KKR",
+   "name": "KKR & Co. Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 90948439093.0
+  },
+  {
+   "ticker": "CSX",
+   "name": "CSX Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 90697171936.0
+  },
+  {
+   "ticker": "HCA",
+   "name": "HCA Healthcare Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 90285455530.0
+  },
+  {
+   "ticker": "WMB",
+   "name": "Williams Companies Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 89768260770.0
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 89376171795.0
+  },
+  {
+   "ticker": "ASX",
+   "name": "ASE Technology Holding Co. Ltd. American Depositary Shares (each representing Two Common Shares)",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 88808723785.0
+  },
+  {
+   "ticker": "CMCSA",
+   "name": "Comcast Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 88591712045.0
+  },
+  {
+   "ticker": "E",
+   "name": "ENI S.p.A. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 88266761448.0
+  },
+  {
+   "ticker": "ICE",
+   "name": "Intercontinental Exchange Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 87931218499.0
+  },
+  {
+   "ticker": "BCS",
+   "name": "Barclays PLC Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 87921423863.0
+  },
+  {
+   "ticker": "DASH",
+   "name": "DoorDash Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 87144881089.0
+  },
+  {
+   "ticker": "LYG",
+   "name": "Lloyds Banking Group Plc American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 87073456745.0
+  },
+  {
+   "ticker": "JCI",
+   "name": "Johnson Controls International plc Ordinary Share",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 86908817982.0
+  },
+  {
+   "ticker": "WM",
+   "name": "Waste Management Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 86540335912.0
+  },
+  {
+   "ticker": "MAR",
+   "name": "Marriott International Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 86449239798.0
+  },
+  {
+   "ticker": "INTU",
+   "name": "Intuit Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 86183302590.0
+  },
+  {
+   "ticker": "EPD",
+   "name": "Enterprise Products Partners L.P. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 85417687524.0
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 85210515000.0
+  },
+  {
+   "ticker": "UPS",
+   "name": "United Parcel Service Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 85103681647.0
+  },
+  {
+   "ticker": "MRSH",
+   "name": "Marsh Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 84824302887.0
+  },
+  {
+   "ticker": "MMM",
+   "name": "3M Company Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 83848729168.0
+  },
+  {
+   "ticker": "EMR",
+   "name": "Emerson Electric Company Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 82688272000.0
+  },
+  {
+   "ticker": "SLB",
+   "name": "SLB Limited Common Shares",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 82666777967.0
+  },
+  {
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 81669044231.0
+  },
+  {
+   "ticker": "MCO",
+   "name": "Moody's Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 81497528000.0
+  },
+  {
+   "ticker": "DDOG",
+   "name": "Datadog Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 81046823667.0
+  },
+  {
+   "ticker": "SU",
+   "name": "Suncor Energy  Inc. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 80798013597.0
+  },
+  {
+   "ticker": "AMT",
+   "name": "American Tower Corporation (REIT) Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 80629726706.0
+  },
+  {
+   "ticker": "NGG",
+   "name": "National Grid Transco PLC National Grid PLC (NEW) American Depositary Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 80553415917.0
+  },
+  {
+   "ticker": "CTAS",
+   "name": "Cintas Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 79909859636.0
+  },
+  {
+   "ticker": "CP",
+   "name": "Canadian Pacific Kansas City Limited Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 79750547114.0
+  },
+  {
+   "ticker": "MDLZ",
+   "name": "Mondelez International Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 79399124226.0
+  },
+  {
+   "ticker": "CDNS",
+   "name": "Cadence Design Systems Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 78657748660.0
+  },
+  {
+   "ticker": "CVNA",
+   "name": "Carvana Co. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 78650145642.0
+  },
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 77581448210.0
+  },
+  {
+   "ticker": "EOG",
+   "name": "EOG Resources Inc. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 77247411750.0
+  },
+  {
+   "ticker": "MSI",
+   "name": "Motorola Solutions Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 77005914494.0
+  },
+  {
+   "ticker": "SHW",
+   "name": "Sherwin-Williams Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 76764982509.0
+  },
+  {
+   "ticker": "APO",
+   "name": "Apollo Global Management Inc. (New) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 76599353154.0
+  },
+  {
+   "ticker": "SNPS",
+   "name": "Synopsys Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 76220601397.0
+  },
+  {
+   "ticker": "TRV",
+   "name": "The Travelers Companies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 76051667397.0
+  },
+  {
+   "ticker": "DB",
+   "name": "Deutsche Bank AG Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 75952118000.0
+  },
+  {
+   "ticker": "BAM",
+   "name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 75645145172.0
+  },
+  {
+   "ticker": "ECL",
+   "name": "Ecolab Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 75506509218.0
+  },
+  {
+   "ticker": "CMI",
+   "name": "Cummins Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 75236395435.0
+  },
+  {
+   "ticker": "ITW",
+   "name": "Illinois Tool Works Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 74956512000.0
+  },
+  {
+   "ticker": "GM",
+   "name": "General Motors Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 74886101767.0
+  },
+  {
+   "ticker": "ET",
+   "name": "Energy Transfer LP Common Units",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 74736817840.0
+  },
+  {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise Company Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 74324752976.0
+  },
+  {
+   "ticker": "CI",
+   "name": "The Cigna Group Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 74045468987.0
+  },
+  {
+   "ticker": "NTES",
+   "name": "NetEase Inc. American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 73946284807.0
+  },
+  {
+   "ticker": "FDX",
+   "name": "FedEx Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 73761891124.0
+  },
+  {
+   "ticker": "NOC",
+   "name": "Northrop Grumman Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 73726448603.0
+  },
+  {
+   "ticker": "NU",
+   "name": "Nu Holdings Ltd. Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 73442063684.0
+  },
+  {
+   "ticker": "CNI",
+   "name": "Canadian National Railway Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 73259207000.0
+  },
+  {
+   "ticker": "NWG",
+   "name": "NatWest Group plc American Depositary Shares (each representing two (2) Ordinary Shares)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 73140636511.0
+  },
+  {
+   "ticker": "MFC",
+   "name": "Manulife Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 72646804074.0
+  },
+  {
+   "ticker": "NSC",
+   "name": "Norfolk Southern Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 72609148740.0
+  },
+  {
+   "ticker": "ROST",
+   "name": "Ross Stores Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 72257098951.0
+  },
+  {
+   "ticker": "B",
+   "name": "Barrick Mining Corporation Common Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 71818166623.0
+  },
+  {
+   "ticker": "TGT",
+   "name": "Target Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 71383646128.0
+  },
+  {
+   "ticker": "WBD",
+   "name": "Warner Bros. Discovery Inc. Series A Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 70739065872.0
+  },
+  {
+   "ticker": "CL",
+   "name": "Colgate-Palmolive Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 70350502159.0
+  },
+  {
+   "ticker": "DLR",
+   "name": "Digital Realty Trust Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 69613055610.0
+  },
+  {
+   "ticker": "HLT",
+   "name": "Hilton Worldwide Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 69374007858.0
+  },
+  {
+   "ticker": "KMI",
+   "name": "Kinder Morgan Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 69320349031.0
+  },
+  {
+   "ticker": "WPM",
+   "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 69182187925.0
+  },
+  {
+   "ticker": "RCL",
+   "name": "Royal Caribbean Cruises Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 69151073579.0
+  },
+  {
+   "ticker": "ORLY",
+   "name": "O'Reilly Automotive Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 69060982813.0
+  },
+  {
+   "ticker": "AMX",
+   "name": "America Movil S.A.B. de C.V. American Depositary Shares (each representing the right to receive twenty (20) Series B Shares",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 68727641250.0
+  },
+  {
+   "ticker": "RSG",
+   "name": "Republic Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 68132387605.0
+  },
+  {
+   "ticker": "AEP",
+   "name": "American Electric Power Company Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 67412724098.0
+  },
+  {
+   "ticker": "SPG",
+   "name": "Simon Property Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 66512484939.0
+  },
+  {
+   "ticker": "SE",
+   "name": "Sea Limited American Depositary Shares each representing one Class A Ordinary Share",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 66007456936.0
+  },
+  {
+   "ticker": "APD",
+   "name": "Air Products and Chemicals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 65361721486.0
+  },
+  {
+   "ticker": "AON",
+   "name": "Aon plc Class A Ordinary Shares (Ireland)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 65325088027.0
+  },
+  {
+   "ticker": "VALE",
+   "name": "VALE S.A.  American Depositary Shares Each Representing one common share",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 64921808300.0
+  },
+  {
+   "ticker": "PCAR",
+   "name": "PACCAR Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 64516552289.0
+  },
+  {
+   "ticker": "HON",
+   "name": "Honeywell International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 64296035129.0
+  },
+  {
+   "ticker": "BSX",
+   "name": "Boston Scientific Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 63729868406.0
+  },
+  {
+   "ticker": "IMO",
+   "name": "Imperial Oil Limited Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 63725467575.0
+  },
+  {
+   "ticker": "ALL",
+   "name": "Allstate Corporation (The) Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 63583660107.0
+  },
+  {
+   "ticker": "AJG",
+   "name": "Arthur J. Gallagher & Co. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 62814004000.0
+  },
+  {
+   "ticker": "CVE",
+   "name": "Cenovus Energy Inc Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 62643750000.0
+  },
+  {
+   "ticker": "TRGP",
+   "name": "Targa Resources Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 62544168050.0
+  },
+  {
+   "ticker": "TDG",
+   "name": "Transdigm Group Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 62512222123.0
+  },
+  {
+   "ticker": "TRP",
+   "name": "TC Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 62115000000.0
+  },
+  {
+   "ticker": "ARGX",
+   "name": "argenx SE American Depositary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 61688648785.0
+  },
+  {
+   "ticker": "NBIS",
+   "name": "Nebius Group N.V. Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 61667637651.0
+  },
+  {
+   "ticker": "COR",
+   "name": "Cencora Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 61619999850.0
+  },
+  {
+   "ticker": "URI",
+   "name": "United Rentals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 61581162554.0
+  },
+  {
+   "ticker": "TFC",
+   "name": "Truist Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 61227904543.0
+  },
+  {
+   "ticker": "MET",
+   "name": "MetLife Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 61132880377.0
+  },
+  {
+   "ticker": "OXY",
+   "name": "Occidental Petroleum Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 61132823424.0
+  },
+  {
+   "ticker": "NOK",
+   "name": "Nokia Corporation Sponsored American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 61056086240.0
+  },
+  {
+   "ticker": "MPLX",
+   "name": "MPLX LP Common Units Representing Limited Partner Interests",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 60588169080.0
+  },
+  {
+   "ticker": "OKE",
+   "name": "ONEOK Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 60392565947.0
+  },
+  {
+   "ticker": "BRKRP",
+   "name": "Bruker Corporation 6.375% Mandatory Convertible Preferred Stock Series A",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 60203260124.0
+  },
+  {
+   "ticker": "GWW",
+   "name": "W.W. Grainger Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 59968919354.0
+  },
+  {
+   "ticker": "RELX",
+   "name": "RELX PLC PLC American Depositary Shares (Each representing One Ordinary Share)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 59521909336.0
+  },
+  {
+   "ticker": "BMNP",
+   "name": "BitMine Immersion Technologies Inc. 9.5% Series A Perpetual Preferred Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 59248896419.0
+  },
+  {
+   "ticker": "BKR",
+   "name": "Baker Hughes Company Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 59074033965.0
+  },
+  {
+   "ticker": "TEL",
+   "name": "TE Connectivity plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 59049117983.0
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent Corp. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 58624341163.0
+  },
+  {
+   "ticker": "CRH",
+   "name": "CRH PLC Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 58547120117.0
+  },
+  {
+   "ticker": "MPWR",
+   "name": "Monolithic Power Systems Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 58483118580.0
+  },
+  {
+   "ticker": "LNG",
+   "name": "Cheniere Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 57695317037.0
+  },
+  {
+   "ticker": "NUE",
+   "name": "Nucor Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 57694484407.0
+  },
+  {
+   "ticker": "TER",
+   "name": "Teradyne Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 57651433266.0
+  },
+  {
+   "ticker": "FANG",
+   "name": "Diamondback Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 57346187251.0
+  },
+  {
+   "ticker": "TAK",
+   "name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 57272183520.0
+  },
+  {
+   "ticker": "D",
+   "name": "Dominion Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 57164789055.0
+  },
+  {
+   "ticker": "AFL",
+   "name": "AFLAC Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 57077934477.0
+  },
+  {
+   "ticker": "CTVA",
+   "name": "Corteva Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 56915154780.0
+  },
+  {
+   "ticker": "MT",
+   "name": "Arcelor Mittal NY Registry Shares NEW",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 56848487421.0
+  },
+  {
+   "ticker": "NXPI",
+   "name": "NXP Semiconductors N.V. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 56575554079.0
+  },
+  {
+   "ticker": "O",
+   "name": "Realty Income Corporation Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 56484485480.0
+  },
+  {
+   "ticker": "FIX",
+   "name": "Comfort Systems USA Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 56164869935.0
+  },
+  {
+   "ticker": "KEYS",
+   "name": "Keysight Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 55908374258.0
+  },
+  {
+   "ticker": "UMC",
+   "name": "United Microelectronics Corporation (NEW) Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 55627062889.0
+  },
+  {
+   "ticker": "FAST",
+   "name": "Fastenal Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 55412657800.0
+  },
+  {
+   "ticker": "SRE",
+   "name": "DBA Sempra Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 55169572361.0
+  },
+  {
+   "ticker": "CAH",
+   "name": "Cardinal Health Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 55094864206.0
+  },
+  {
+   "ticker": "NKE",
+   "name": "Nike Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 54844947050.0
+  },
+  {
+   "ticker": "SOMN",
+   "name": "Southern Company (The) 2025 Series A Corporate Units",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 54699759033.0
+  },
+  {
+   "ticker": "F",
+   "name": "Ford Motor Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 54423152197.0
+  },
+  {
+   "ticker": "DVN",
+   "name": "Devon Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 54329000000.0
+  },
+  {
+   "ticker": "AME",
+   "name": "AMETEK Inc.",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 53699861182.0
+  },
+  {
+   "ticker": "MRNA",
+   "name": "Moderna Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 53597418098.0
+  },
+  {
+   "ticker": "STT",
+   "name": "State Street Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 52753726951.0
+  },
+  {
+   "ticker": "AU",
+   "name": "AngloGold Ashanti PLC Ordinary Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 52660694935.0
+  },
+  {
+   "ticker": "GRMN",
+   "name": "Garmin Ltd. Common Stock (Switzerland)",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 52476139308.0
+  },
+  {
+   "ticker": "PSA",
+   "name": "Public Storage Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 51927656901.0
+  },
+  {
+   "ticker": "NDAQ",
+   "name": "Nasdaq Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 51850964618.0
+  },
+  {
+   "ticker": "DAL",
+   "name": "Delta Air Lines Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 51307748801.0
+  },
+  {
+   "ticker": "VMRK",
+   "name": "Vivmark Residential Common Shares of Beneficial Interest",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 51132375000.0
+  },
+  {
+   "ticker": "VST",
+   "name": "Vistra Corp. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 50717834316.0
+  },
+  {
+   "ticker": "HBANL",
+   "name": "Huntington Bancshares Incorporated Depositary Shares Each Representing a 1/40th Interest in a Share of 6.875% Series J Non-Cumulative Perpetual Preferred Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 50611391391.0
+  },
+  {
+   "ticker": "FNV",
+   "name": "Franco-Nevada Corporation",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 50571030797.0
+  },
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 50204854247.0
+  },
+  {
+   "ticker": "AMP",
+   "name": "Ameriprise Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 49984576646.0
+  },
+  {
+   "ticker": "EW",
+   "name": "Edwards Lifesciences Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 49939296000.0
+  },
+  {
+   "ticker": "ETR",
+   "name": "Entergy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 49626259812.0
+  },
+  {
+   "ticker": "MSTR",
+   "name": "Strategy Inc Common Stock Class A",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 49586254295.0
+  },
+  {
+   "ticker": "CRWV",
+   "name": "CoreWeave Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 49544532958.0
+  },
+  {
+   "ticker": "FITB",
+   "name": "Fifth Third Bancorp Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 49071956638.0
+  },
+  {
+   "ticker": "HONA",
+   "name": "Honeywell Aerospace Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 48959180306.0
+  },
+  {
+   "ticker": "HUM",
+   "name": "Humana Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 48398368139.0
+  },
+  {
+   "ticker": "BDX",
+   "name": "Becton Dickinson and Company Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 48291455772.0
+  },
+  {
+   "ticker": "DEO",
+   "name": "Diageo plc Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 48239284320.0
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 47963897411.0
+  },
+  {
+   "ticker": "XYZ",
+   "name": "Block Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 47919409200.0
+  },
+  {
+   "ticker": "ABEV",
+   "name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 47836573624.0
+  },
+  {
+   "ticker": "WAB",
+   "name": "Westinghouse Air Brake Technologies Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 47313618474.0
+  },
+  {
+   "ticker": "CCEP",
+   "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 47205093383.0
+  },
+  {
+   "ticker": "XEL",
+   "name": "Xcel Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 47203614504.0
+  },
+  {
+   "ticker": "NTRA",
+   "name": "Natera Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 47103431873.0
+  },
+  {
+   "ticker": "AZO",
+   "name": "AutoZone Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 47030654071.0
+  },
+  {
+   "ticker": "CARR",
+   "name": "Carrier Global Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 46879365992.0
+  },
+  {
+   "ticker": "EBAY",
+   "name": "eBay Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 46827350000.0
+  },
+  {
+   "ticker": "ROK",
+   "name": "Rockwell Automation Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 46825192162.0
+  },
+  {
+   "ticker": "LHX",
+   "name": "L3Harris Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 46394440503.0
+  },
+  {
+   "ticker": "VTR",
+   "name": "Ventas Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 46308797291.0
+  },
+  {
+   "ticker": "TEAM",
+   "name": "Atlassian Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 46171254162.0
+  },
+  {
+   "ticker": "PYPL",
+   "name": "PayPal Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 45600341889.0
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 45516201217.0
+  },
+  {
+   "ticker": "CMG",
+   "name": "Chipotle Mexican Grill Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 45491777100.0
+  },
+  {
+   "ticker": "KB",
+   "name": "KB Financial Group Inc",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 45468923150.0
+  },
+  {
+   "ticker": "COIN",
+   "name": "Coinbase Global Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 45275735171.0
+  },
+  {
+   "ticker": "WDS",
+   "name": "Woodside Energy Group Limited American Depositary Shares each representing one Ordinary Share",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 45265194405.0
+  },
+  {
+   "ticker": "STM",
+   "name": "STMicroelectronics N.V. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 45024442967.0
+  },
+  {
+   "ticker": "WDAY",
+   "name": "Workday Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 45018800000.0
+  },
+  {
+   "ticker": "EXC",
+   "name": "Exelon Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 44866918676.0
+  },
+  {
+   "ticker": "ADSK",
+   "name": "Autodesk Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 44614185000.0
+  },
+  {
+   "ticker": "INFY",
+   "name": "Infosys Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 44133197790.0
+  },
+  {
+   "ticker": "SLF",
+   "name": "Sun Life Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 44109261125.0
+  },
+  {
+   "ticker": "BSBR",
+   "name": "Banco Santander Brasil SA American Depositary Shares each representing one unit",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 43893289020.0
+  },
+  {
+   "ticker": "IX",
+   "name": "ORIX Corporation American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 43862640468.0
+  },
+  {
+   "ticker": "ARES",
+   "name": "Ares Management Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 43806320268.0
+  },
+  {
+   "ticker": "HEI",
+   "name": "Heico Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 43734284747.0
+  },
+  {
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 43703195630.0
+  },
+  {
+   "ticker": "KDP",
+   "name": "Keurig Dr Pepper Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 43600866258.0
+  },
+  {
+   "ticker": "MDLN",
+   "name": "Medline Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 43221008800.0
+  },
+  {
+   "ticker": "FERG",
+   "name": "Ferguson Enterprises Inc. Common Stock",
+   "exchange": null,
+   "sector": "Miscellaneous",
+   "market_cap": 42905878103.0
+  },
+  {
+   "ticker": "TRI",
+   "name": "Thomson Reuters Corporation Common Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 42808824000.0
+  },
+  {
+   "ticker": "CCJ",
+   "name": "Cameco Corporation Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 42725785142.0
+  },
+  {
+   "ticker": "SMCIP",
+   "name": "Super Micro Computer Inc. Depositary Shares representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 42722458922.0
+  },
+  {
+   "ticker": "VEEV",
+   "name": "Veeva Systems Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 42664601064.0
+  },
+  {
+   "ticker": "TEVA",
+   "name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 42288594888.0
+  },
+  {
+   "ticker": "IQV",
+   "name": "IQVIA Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 42261050000.0
+  },
+  {
+   "ticker": "ADM",
+   "name": "Archer-Daniels-Midland Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 41906385742.0
+  },
+  {
+   "ticker": "HBANM",
+   "name": "Huntington Bancshares Incorporated Depositary Shares each representing a 1/1000th interest in a share of Huntington Series I Preferred Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 41317483192.0
+  },
+  {
+   "ticker": "WCN",
+   "name": "Waste Connections Inc. Common Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 41111647510.0
+  },
+  {
+   "ticker": "HMC",
+   "name": "Honda Motor Company Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 41008334956.0
+  },
+  {
+   "ticker": "PAYX",
+   "name": "Paychex Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 40976912247.0
+  },
+  {
+   "ticker": "GFI",
+   "name": "Gold Fields Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 40974210028.0
+  },
+  {
+   "ticker": "PRU",
+   "name": "Prudential Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 40865250000.0
+  },
+  {
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive Software Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 40628045557.0
+  },
+  {
+   "ticker": "FLEX",
+   "name": "Flex Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 40534588776.0
+  },
+  {
+   "ticker": "HLN",
+   "name": "Haleon plc American Depositary Shares (Each representing two Ordinary Shares)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 40442133034.0
+  },
+  {
+   "ticker": "BTSGU",
+   "name": "BrightSpring Health Services Inc. Tangible Equity Unit",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 40405856655.0
+  },
+  {
+   "ticker": "IBKR",
+   "name": "Interactive Brokers Group Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 40382857381.0
+  },
+  {
+   "ticker": "A",
+   "name": "Agilent Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 40327103276.0
+  },
+  {
+   "ticker": "IDXX",
+   "name": "IDEXX Laboratories Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 40201767151.0
+  },
+  {
+   "ticker": "MSCI",
+   "name": "MSCI Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 40147121000.0
+  },
+  {
+   "ticker": "CBRE",
+   "name": "CBRE Group Inc Common Stock Class A",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 40140927809.0
+  },
+  {
+   "ticker": "FMX",
+   "name": "Fomento Economico Mexicano S.A.B. de C.V. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 40125463301.0
+  },
+  {
+   "ticker": "VOD",
+   "name": "Vodafone Group Plc American Depositary Shares",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 40014179828.0
+  },
+  {
+   "ticker": "FER",
+   "name": "Ferrovial N.V. Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 39987461856.0
+  },
+  {
+   "ticker": "STRF",
+   "name": "Strategy Inc 10.00% Series A Perpetual Strife Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 39978689392.0
+  },
+  {
+   "ticker": "LYV",
+   "name": "Live Nation Entertainment Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 39810340647.0
+  },
+  {
+   "ticker": "BBD",
+   "name": "Banco Bradesco Sa American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 39707439517.0
+  },
+  {
+   "ticker": "AXON",
+   "name": "Axon Enterprise Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 39643046146.0
+  },
+  {
+   "ticker": "ED",
+   "name": "Consolidated Edison Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 39569814588.0
+  },
+  {
+   "ticker": "VG",
+   "name": "Venture Global Inc. Class A common stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 39498966953.0
+  },
+  {
+   "ticker": "YUM",
+   "name": "Yum! Brands Inc.",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 39469683924.0
+  },
+  {
+   "ticker": "WAT",
+   "name": "Waters Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 39388158940.0
+  },
+  {
+   "ticker": "SYY",
+   "name": "Sysco Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 39261918511.0
+  },
+  {
+   "ticker": "MCHP",
+   "name": "Microchip Technology Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 39099340795.0
+  },
+  {
+   "ticker": "AIG",
+   "name": "American International Group Inc. New Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 39023517202.0
+  },
+  {
+   "ticker": "ONC",
+   "name": "BeOne Medicines Ltd. American Depositary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 38961085173.0
+  },
+  {
+   "ticker": "HBANZ",
+   "name": "Huntington Bancshares Incorporated Depositary Shares Each Representing a 1/1000th Interest in a Share of 5.50% Series L Non-Cumulative Perpetual Preferred Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 38690943918.0
+  },
+  {
+   "ticker": "SHG",
+   "name": "Shinhan Financial Group Co Ltd American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 38610758996.0
+  },
+  {
+   "ticker": "ROP",
+   "name": "Roper Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 38581230947.0
+  },
+  {
+   "ticker": "NTR",
+   "name": "Nutrien Ltd. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 38388291858.0
+  },
+  {
+   "ticker": "PCG",
+   "name": "Pacific Gas & Electric Co. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 38312179540.0
+  },
+  {
+   "ticker": "RKLB",
+   "name": "Rocket Lab Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 37864547687.0
+  },
+  {
+   "ticker": "DHI",
+   "name": "D.R. Horton Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 37826799349.0
+  },
+  {
+   "ticker": "ODFL",
+   "name": "Old Dominion Freight Line Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 37786597227.0
+  },
+  {
+   "ticker": "CLS",
+   "name": "Celestica Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 37737622911.0
+  },
+  {
+   "ticker": "VIK",
+   "name": "Viking Holdings Ltd Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 37680064946.0
+  },
+  {
+   "ticker": "STRC",
+   "name": "Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 37592685900.0
+  },
+  {
+   "ticker": "RKT",
+   "name": "Rocket Companies Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 37278572472.0
+  },
+  {
+   "ticker": "EC",
+   "name": "Ecopetrol S.A. American Depositary Shares",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 37087258619.0
+  },
+  {
+   "ticker": "HIG",
+   "name": "The Hartford Insurance Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 36749204511.0
+  },
+  {
+   "ticker": "NTAP",
+   "name": "NetApp Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 36308053074.0
+  },
+  {
+   "ticker": "JD",
+   "name": "JD.com Inc. American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 36261120000.0
+  },
+  {
+   "ticker": "PEG",
+   "name": "Public Service Enterprise Group Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 36182802078.0
+  },
+  {
+   "ticker": "TKO",
+   "name": "TKO Group Holdings Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 35953674681.0
+  },
+  {
+   "ticker": "TWLO",
+   "name": "Twilio Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 35796848030.0
+  },
+  {
+   "ticker": "BBDO",
+   "name": "Banco Bradesco Sa American Depositary Shares (each representing one Common Share)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 35624843623.0
+  },
+  {
+   "ticker": "BAP",
+   "name": "Credicorp Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 35586852625.0
+  },
+  {
+   "ticker": "EL",
+   "name": "Estee Lauder Companies Inc. (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 35304304168.0
+  },
+  {
+   "ticker": "HSY",
+   "name": "The Hershey Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 35120297901.0
+  },
+  {
+   "ticker": "QSR",
+   "name": "Restaurant Brands International Inc. Common Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 35024455295.0
+  },
+  {
+   "ticker": "KR",
+   "name": "Kroger Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 34896389183.0
+  },
+  {
+   "ticker": "PPLC",
+   "name": "PPL Corporation Corporate Units",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 34730019667.0
+  },
+  {
+   "ticker": "KGC",
+   "name": "Kinross Gold Corporation Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 34688605000.0
+  },
+  {
+   "ticker": "UAL",
+   "name": "United Airlines Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 34587646744.0
+  },
+  {
+   "ticker": "CHT",
+   "name": "Chunghwa Telecom Co. Ltd.",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 34466334977.0
+  },
+  {
+   "ticker": "WEC",
+   "name": "WEC Energy Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 34409694845.0
+  },
+  {
+   "ticker": "EQT",
+   "name": "EQT Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 34306425020.0
+  },
+  {
+   "ticker": "KVUE",
+   "name": "Kenvue Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 34266598651.0
+  },
+  {
+   "ticker": "MTB",
+   "name": "M&T Bank Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 34262758160.0
+  },
+  {
+   "ticker": "NTRS",
+   "name": "Northern Trust Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 34240150459.0
+  },
+  {
+   "ticker": "RPRX",
+   "name": "Royalty Pharma plc Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 34195321602.0
+  },
+  {
+   "ticker": "STLD",
+   "name": "Steel Dynamics Inc.",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 33983806305.0
+  },
+  {
+   "ticker": "ESLT",
+   "name": "Elbit Systems Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 33815715006.0
+  },
+  {
+   "ticker": "IRM",
+   "name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 33813085387.0
+  },
+  {
+   "ticker": "CQP",
+   "name": "Cheniere Energy Partners LP Common Units",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 33796908893.0
+  },
+  {
+   "ticker": "ERIC",
+   "name": "Ericsson American Depositary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 33764087626.0
+  },
+  {
+   "ticker": "MCHPP",
+   "name": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 33715409624.0
+  },
+  {
+   "ticker": "HBAN",
+   "name": "Huntington Bancshares Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 33589396482.0
+  },
+  {
+   "ticker": "RJF",
+   "name": "Raymond James Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 33520951759.0
+  },
+  {
+   "ticker": "ALC",
+   "name": "Alcon Inc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 33517377500.0
+  },
+  {
+   "ticker": "ALNY",
+   "name": "Alnylam Pharmaceuticals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 33493760327.0
+  },
+  {
+   "ticker": "PUK",
+   "name": "Prudential Public Limited Company Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 33398193748.0
+  },
+  {
+   "ticker": "EME",
+   "name": "EMCOR Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 33134034334.0
+  },
+  {
+   "ticker": "KMB",
+   "name": "Kimberly-Clark Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 32990177674.0
+  },
+  {
+   "ticker": "ACGL",
+   "name": "Arch Capital Group Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 32792119009.0
+  },
+  {
+   "ticker": "HBANP",
+   "name": "Huntington Bancshares Incorporated Depositary Shares 4.500% Series H Non-Cumulative Perpetual Preferred Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 32750924329.0
+  },
+  {
+   "ticker": "CNC",
+   "name": "Centene Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 32598730050.0
+  },
+  {
+   "ticker": "EXPE",
+   "name": "Expedia Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 32359973673.0
+  },
+  {
+   "ticker": "RBLX",
+   "name": "Roblox Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 32325511330.0
+  },
+  {
+   "ticker": "UI",
+   "name": "Ubiquiti Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 32322458096.0
+  },
+  {
+   "ticker": "VMC",
+   "name": "Vulcan Materials Company (Holding Company) Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 32271584948.0
+  },
+  {
+   "ticker": "CBOE",
+   "name": "Cboe Global Markets Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 32121054125.0
+  },
+  {
+   "ticker": "TECK",
+   "name": "Teck Resources Ltd Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 32069950793.0
+  },
+  {
+   "ticker": "JBL",
+   "name": "Jabil Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 31960062145.0
+  },
+  {
+   "ticker": "DXCM",
+   "name": "DexCom Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 31749247963.0
+  },
+  {
+   "ticker": "BIIB",
+   "name": "Biogen Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 31745685240.0
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure Inc. Class A common stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 31669917935.0
+  },
+  {
+   "ticker": "RMD",
+   "name": "ResMed Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 31628760614.0
+  },
+  {
+   "ticker": "CCI",
+   "name": "Crown Castle Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 31528375307.0
+  },
+  {
+   "ticker": "BIDU",
+   "name": "Baidu Inc. ADS",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 30830293432.0
+  },
+  {
+   "ticker": "CCL",
+   "name": "Carnival Corporation Ltd. Common Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 30748622722.0
+  },
+  {
+   "ticker": "NMR",
+   "name": "Nomura Holdings Inc ADR American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 30623614399.0
+  },
+  {
+   "ticker": "ILMN",
+   "name": "Illumina Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 30599395000.0
+  },
+  {
+   "ticker": "AGNCN",
+   "name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 30585421333.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 30581656578.0
+  },
+  {
+   "ticker": "AGNCO",
+   "name": "AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 30431427293.0
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 30237027707.0
+  },
+  {
+   "ticker": "MDB",
+   "name": "MongoDB Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 30218294636.0
+  },
+  {
+   "ticker": "ZTS",
+   "name": "Zoetis Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 30177719654.0
+  },
+  {
+   "ticker": "RDDT",
+   "name": "Reddit Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 30146609152.0
+  },
+  {
+   "ticker": "AGNCP",
+   "name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 30111347302.0
+  },
+  {
+   "ticker": "AGNCM",
+   "name": "AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 30087519125.0
+  },
+  {
+   "ticker": "AGNCZ",
+   "name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 8.75% Series H Fixed-Rate Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 30053140163.0
+  },
+  {
+   "ticker": "TS",
+   "name": "Tenaris S.A. American Depositary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 30041011781.0
+  },
+  {
+   "ticker": "HAL",
+   "name": "Halliburton Company Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 30028184566.0
+  },
+  {
+   "ticker": "AGNCL",
+   "name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 29933406537.0
+  },
+  {
+   "ticker": "MLM",
+   "name": "Martin Marietta Materials Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 29836804536.0
+  },
+  {
+   "ticker": "CPRT",
+   "name": "Copart Inc. (DE) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 29750951974.0
+  },
+  {
+   "ticker": "FTI",
+   "name": "TechnipFMC plc Ordinary Share",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 29549586636.0
+  },
+  {
+   "ticker": "HPQ",
+   "name": "HP Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 29461510957.0
+  },
+  {
+   "ticker": "WTW",
+   "name": "Willis Towers Watson Public Limited Company Ordinary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 29423687080.0
+  },
+  {
+   "ticker": "SUNB",
+   "name": "Sunbelt Rentals Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 29361478673.0
+  },
+  {
+   "ticker": "GEHC",
+   "name": "GE HealthCare Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 29273785992.0
+  },
+  {
+   "ticker": "STRK",
+   "name": "Strategy Inc 8.00% Series A Perpetual Strike Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 29231895136.0
+  },
+  {
+   "ticker": "AEE",
+   "name": "Ameren Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 29220805143.0
+  },
+  {
+   "ticker": "ROIV",
+   "name": "Roivant Sciences Ltd. Common Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 29181849806.0
+  },
+  {
+   "ticker": "CFG",
+   "name": "Citizens Financial Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 29155963149.0
+  },
+  {
+   "ticker": "KHC",
+   "name": "The Kraft Heinz Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 29081853335.0
+  },
+  {
+   "ticker": "EXR",
+   "name": "Extra Space Storage Inc Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 28948154837.0
+  },
+  {
+   "ticker": "STRD",
+   "name": "Strategy Inc 10.00% Series A Perpetual Stride Preferred Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 28833683568.0
+  },
+  {
+   "ticker": "BSP",
+   "name": "Bending Spoons S.p.A. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 28367431350.0
+  },
+  {
+   "ticker": "PBA",
+   "name": "Pembina Pipeline Corp. Ordinary Shares (Canada)",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 28228679700.0
+  },
+  {
+   "ticker": "SYF",
+   "name": "Synchrony Financial Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 28205682714.0
+  },
+  {
+   "ticker": "DTE",
+   "name": "DTE Energy Company Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 28108036949.0
+  },
+  {
+   "ticker": "RYAAY",
+   "name": "Ryanair Holdings plc American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 28085097319.0
+  },
+  {
+   "ticker": "ZM",
+   "name": "Zoom Communications Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 28069592998.0
+  },
+  {
+   "ticker": "FTS",
+   "name": "Fortis Inc. Common Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 28053519000.0
+  },
+  {
+   "ticker": "IR",
+   "name": "Ingersoll Rand Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 28044598728.0
+  },
+  {
+   "ticker": "AWK",
+   "name": "American Water Works Company Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 27996939970.0
+  },
+  {
+   "ticker": "ATO",
+   "name": "Atmos Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 27940567353.0
+  },
+  {
+   "ticker": "TDY",
+   "name": "Teledyne Technologies Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 27757313436.0
+  },
+  {
+   "ticker": "LVS",
+   "name": "Las Vegas Sands Corp. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 27747518723.0
+  },
+  {
+   "ticker": "INSM",
+   "name": "Insmed Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 27734450881.0
+  },
+  {
+   "ticker": "ATI",
+   "name": "ATI Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 27643268601.0
+  },
+  {
+   "ticker": "LPLA",
+   "name": "LPL Financial Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 27554289540.0
+  },
+  {
+   "ticker": "DG",
+   "name": "Dollar General Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 27451347180.0
+  },
+  {
+   "ticker": "FOXA",
+   "name": "Fox Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 27405252980.0
+  },
+  {
+   "ticker": "VICI",
+   "name": "VICI Properties Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 27323239701.0
+  },
+  {
+   "ticker": "ON",
+   "name": "ON Semiconductor Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 27271768841.0
+  },
+  {
+   "ticker": "ZS",
+   "name": "Zscaler Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 27228504019.0
+  },
+  {
+   "ticker": "ECHO",
+   "name": "EchoStar  Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 27094068335.0
+  },
+  {
+   "ticker": "CPAY",
+   "name": "Corpay Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 27002510089.0
+  },
+  {
+   "ticker": "FE",
+   "name": "FirstEnergy Corp. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 26692660063.0
+  },
+  {
+   "ticker": "CTSH",
+   "name": "Cognizant Technology Solutions Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 26427561742.0
+  },
+  {
+   "ticker": "FISV",
+   "name": "Fiserv Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 26418170699.0
+  },
+  {
+   "ticker": "CPNG",
+   "name": "Coupang Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 26351521551.0
+  },
+  {
+   "ticker": "Q",
+   "name": "Qnity Electronics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 26215922523.0
+  },
+  {
+   "ticker": "WSM",
+   "name": "Williams-Sonoma Inc. Common Stock (DE)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 26212343847.0
+  },
+  {
+   "ticker": "ES",
+   "name": "Eversource Energy (D/B/A) Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 26163828413.0
+  },
+  {
+   "ticker": "VRSN",
+   "name": "VeriSign Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 26153589000.0
+  },
+  {
+   "ticker": "CNP",
+   "name": "CenterPoint Energy Inc (Holding Co) Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 26068855398.0
+  },
+  {
+   "ticker": "OTIS",
+   "name": "Otis Worldwide Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 26049202868.0
+  },
+  {
+   "ticker": "CINF",
+   "name": "Cincinnati Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 25927046142.0
+  },
+  {
+   "ticker": "PPL",
+   "name": "PPL Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 25827338943.0
+  },
+  {
+   "ticker": "MTD",
+   "name": "Mettler-Toledo International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 25763007562.0
+  },
+  {
+   "ticker": "WRB",
+   "name": "W.R. Berkley Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 25692657282.0
+  },
+  {
+   "ticker": "LH",
+   "name": "Labcorp Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 25647064000.0
+  },
+  {
+   "ticker": "DGX",
+   "name": "Quest Diagnostics Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 25580129914.0
+  },
+  {
+   "ticker": "NVT",
+   "name": "nVent Electric plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 25518522663.0
+  },
+  {
+   "ticker": "DOV",
+   "name": "Dover Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 25451868921.0
+  },
+  {
+   "ticker": "TPL",
+   "name": "Texas Pacific Land Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 25408203977.0
+  },
+  {
+   "ticker": "RF",
+   "name": "Regions Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 25352144204.0
+  },
+  {
+   "ticker": "JBHT",
+   "name": "J.B. Hunt Transport Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 25241048580.0
+  },
+  {
+   "ticker": "GFS",
+   "name": "GlobalFoundries Inc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 25233522560.0
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 25167949682.0
+  },
+  {
+   "ticker": "SYM",
+   "name": "Symbotic Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 25093222865.0
+  },
+  {
+   "ticker": "INCY",
+   "name": "Incyte Corp. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 24923714848.0
+  },
+  {
+   "ticker": "XYL",
+   "name": "Xylem Inc. Common Stock New",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 24867512912.0
+  },
+  {
+   "ticker": "EXPD",
+   "name": "Expeditors International of Washington Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 24762563538.0
+  },
+  {
+   "ticker": "TCOM",
+   "name": "Trip.com Group Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 24580543341.0
+  },
+  {
+   "ticker": "PFG",
+   "name": "Principal Financial Group Inc Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 24501064593.0
+  },
+  {
+   "ticker": "FOX",
+   "name": "Fox Corporation Class B Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 24436228176.0
+  },
+  {
+   "ticker": "PHG",
+   "name": "Koninklijke Philips N.V. NY Registry Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 24296911935.0
+  },
+  {
+   "ticker": "ASTS",
+   "name": "AST SpaceMobile Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 24276229359.0
+  },
+  {
+   "ticker": "BNTX",
+   "name": "BioNTech SE American Depositary Share",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 24228661101.0
+  },
+  {
+   "ticker": "CIB",
+   "name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 24196162727.0
+  },
+  {
+   "ticker": "FCNCA",
+   "name": "First Citizens BancShares Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 24184894067.0
+  },
+  {
+   "ticker": "BG",
+   "name": "Bunge Limited Common Shares",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 24121804667.0
+  },
+  {
+   "ticker": "FWONK",
+   "name": "Liberty Media Corporation Series C Liberty Formula One Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 24017872863.0
+  },
+  {
+   "ticker": "HUBB",
+   "name": "Hubbell Inc Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 23984138094.0
+  },
+  {
+   "ticker": "TSEM",
+   "name": "Tower Semiconductor Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 23961441690.0
+  },
+  {
+   "ticker": "NRG",
+   "name": "NRG Energy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 23900931917.0
+  },
+  {
+   "ticker": "TW",
+   "name": "Tradeweb Markets Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 23803014528.0
+  },
+  {
+   "ticker": "DRI",
+   "name": "Darden Restaurants Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23676312076.0
+  },
+  {
+   "ticker": "CASY",
+   "name": "Casey's General Stores Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23521819880.0
+  },
+  {
+   "ticker": "WST",
+   "name": "West Pharmaceutical Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 23448500141.0
+  },
+  {
+   "ticker": "GPN",
+   "name": "Global Payments Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23434604618.0
+  },
+  {
+   "ticker": "RIVN",
+   "name": "Rivian Automotive Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 23390188478.0
+  },
+  {
+   "ticker": "SN",
+   "name": "SharkNinja Inc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23301563416.0
+  },
+  {
+   "ticker": "PPG",
+   "name": "PPG Industries Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23285925000.0
+  },
+  {
+   "ticker": "KEY",
+   "name": "KeyCorp Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 23157756750.0
+  },
+  {
+   "ticker": "ULTA",
+   "name": "Ulta Beauty Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23151460248.0
+  },
+  {
+   "ticker": "TPR",
+   "name": "Tapestry Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 23114480272.0
+  },
+  {
+   "ticker": "CRCL",
+   "name": "Circle Internet Group Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 23078764675.0
+  },
+  {
+   "ticker": "IOT",
+   "name": "Samsara Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 23072845235.0
+  },
+  {
+   "ticker": "VRSK",
+   "name": "Verisk Analytics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 23068851567.0
+  },
+  {
+   "ticker": "AFRM",
+   "name": "Affirm Holdings Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 23018878084.0
+  },
+  {
+   "ticker": "TROW",
+   "name": "T. Rowe Price Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 23002914685.0
+  },
+  {
+   "ticker": "ROKU",
+   "name": "Roku Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 22901046917.0
+  },
+  {
+   "ticker": "VLTO",
+   "name": "Veralto Corp Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 22867815667.0
+  },
+  {
+   "ticker": "FFIV",
+   "name": "F5 Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 22776585144.0
+  },
+  {
+   "ticker": "EXE",
+   "name": "Expand Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 22455867533.0
+  },
+  {
+   "ticker": "CRS",
+   "name": "Carpenter Technology Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 22419304087.0
+  },
+  {
+   "ticker": "FSLR",
+   "name": "First Solar Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 22376284559.0
+  },
+  {
+   "ticker": "YPF",
+   "name": "YPF Sociedad Anonima American Depositary Shares",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 22359832282.0
+  },
+  {
+   "ticker": "DLTR",
+   "name": "Dollar Tree Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 22348644914.0
+  },
+  {
+   "ticker": "SOFI",
+   "name": "SoFi Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 22331250902.0
+  },
+  {
+   "ticker": "CHD",
+   "name": "Church & Dwight Company Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 22323259688.0
+  },
+  {
+   "ticker": "BNH",
+   "name": "Brookfield Finance Inc. 4.625% Subordinated Notes due October 16 2080",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 22308760761.0
+  },
+  {
+   "ticker": "BRO",
+   "name": "Brown & Brown Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 22281703673.0
+  },
+  {
+   "ticker": "L",
+   "name": "Loews Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 22180407620.0
+  },
+  {
+   "ticker": "SW",
+   "name": "Smurfit WestRock plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 22155847634.0
+  },
+  {
+   "ticker": "EIX",
+   "name": "Edison International Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 22057537276.0
+  },
+  {
+   "ticker": "BNJ",
+   "name": "Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 22028913644.0
+  },
+  {
+   "ticker": "AMRZ",
+   "name": "Amrize Ltd Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21986410889.0
+  },
+  {
+   "ticker": "FWONA",
+   "name": "Liberty Media Corporation Series A Liberty Formula One Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21947020777.0
+  },
+  {
+   "ticker": "MKL",
+   "name": "Markel Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 21927483762.0
+  },
+  {
+   "ticker": "IHG",
+   "name": "Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 21860577496.0
+  },
+  {
+   "ticker": "PHM",
+   "name": "PulteGroup Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 21759490843.0
+  },
+  {
+   "ticker": "RGLD",
+   "name": "Royal Gold Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21727611649.0
+  },
+  {
+   "ticker": "OMC",
+   "name": "Omnicom Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 21717226748.0
+  },
+  {
+   "ticker": "ARXS",
+   "name": "Arxis Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21708667240.0
+  },
+  {
+   "ticker": "XPO",
+   "name": "XPO Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 21692609371.0
+  },
+  {
+   "ticker": "AER",
+   "name": "AerCap Holdings N.V. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 21684297577.0
+  },
+  {
+   "ticker": "GH",
+   "name": "Guardant Health Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 21584085144.0
+  },
+  {
+   "ticker": "BCE",
+   "name": "BCE Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 21527358485.0
+  },
+  {
+   "ticker": "DOW",
+   "name": "Dow Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21504082966.0
+  },
+  {
+   "ticker": "UTHR",
+   "name": "United Therapeutics Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 21428404177.0
+  },
+  {
+   "ticker": "STZ",
+   "name": "Constellation Brands Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 21403831912.0
+  },
+  {
+   "ticker": "IFF",
+   "name": "International Flavors & Fragrances Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21399427397.0
+  },
+  {
+   "ticker": "CMS",
+   "name": "CMS Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 21324813134.0
+  },
+  {
+   "ticker": "THC",
+   "name": "Tenet Healthcare Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 21214340930.0
+  },
+  {
+   "ticker": "PAAS",
+   "name": "Pan American Silver Corp. Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 21191125980.0
+  },
+  {
+   "ticker": "CDE",
+   "name": "Coeur Mining Inc. Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 21072667459.0
+  },
+  {
+   "ticker": "MTSI",
+   "name": "MACOM Technology Solutions Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 21071121718.0
+  },
+  {
+   "ticker": "ENTG",
+   "name": "Entegris Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 21061952000.0
+  },
+  {
+   "ticker": "BCH",
+   "name": "Banco De Chile ADS",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 21051959722.0
+  },
+  {
+   "ticker": "BEP",
+   "name": "Brookfield Renewable Partners L.P. Limited Partnership Units",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 21004539716.0
+  },
+  {
+   "ticker": "SOJC",
+   "name": "Southern Company (The) Series 2017B 5.25% Junior Subordinated Notes due December 1 2077",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 20985714388.0
+  },
+  {
+   "ticker": "LYB",
+   "name": "LyondellBasell Industries NV Ordinary Shares Class A (Netherlands)",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 20971623844.0
+  },
+  {
+   "ticker": "BPYPM",
+   "name": "Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units Series 1",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 20946882059.0
+  },
+  {
+   "ticker": "FICO",
+   "name": "Fair Isaac Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 20843661562.0
+  },
+  {
+   "ticker": "CW",
+   "name": "Curtiss-Wright Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 20834996869.0
+  },
+  {
+   "ticker": "STE",
+   "name": "STERIS plc (Ireland) Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 20746073406.0
+  },
+  {
+   "ticker": "CF",
+   "name": "CF Industries Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 20733323810.0
+  },
+  {
+   "ticker": "USFD",
+   "name": "US Foods Holding Corp. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 20705013498.0
+  },
+  {
+   "ticker": "SNX",
+   "name": "TD SYNNEX Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 20644550179.0
+  },
+  {
+   "ticker": "PKG",
+   "name": "Packaging Corporation of America Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 20497954668.0
+  },
+  {
+   "ticker": "SQM",
+   "name": "Sociedad Quimica y Minera S.A. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 20477374456.0
+  },
+  {
+   "ticker": "RL",
+   "name": "Ralph Lauren Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 20156075631.0
+  },
+  {
+   "ticker": "AQNB",
+   "name": "Algonquin Power & Utilities Corp. 6.20% Fixed-to-Floating Subordinated Notes Series 2019-A due July 1 2079",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 20091534026.0
+  },
+  {
+   "ticker": "PR",
+   "name": "Permian Resources Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 19992486282.0
+  },
+  {
+   "ticker": "RS",
+   "name": "Reliance Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 19989900465.0
+  },
+  {
+   "ticker": "WES",
+   "name": "Western Midstream Partners LP Common Units Representing Limited Partner Interests",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 19964596334.0
+  },
+  {
+   "ticker": "NI",
+   "name": "NiSource Inc Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 19923324355.0
+  },
+  {
+   "ticker": "PKX",
+   "name": "POSCO HOLDINGS INC. American Depositary Shares (Each representing 1/4th of a share of Common Stock)",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 19867421057.0
+  },
+  {
+   "ticker": "FIS",
+   "name": "Fidelity National Information Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 19846942216.0
+  },
+  {
+   "ticker": "AMCR",
+   "name": "Amcor plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 19788395532.0
+  },
+  {
+   "ticker": "BPYPP",
+   "name": "Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 19782478207.0
+  },
+  {
+   "ticker": "EFX",
+   "name": "Equifax Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 19780931940.0
+  },
+  {
+   "ticker": "WWD",
+   "name": "Woodward Inc. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 19717465902.0
+  },
+  {
+   "ticker": "DINO",
+   "name": "HF Sinclair Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 19582890967.0
+  },
+  {
+   "ticker": "SOJD",
+   "name": "Southern Company (The) Series 2020A 4.95% Junior Subordinated Notes due January 30 2080",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 19515941048.0
+  },
+  {
+   "ticker": "SNA",
+   "name": "Snap-On Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 19363272963.0
+  },
+  {
+   "ticker": "GIS",
+   "name": "General Mills Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 19329528560.0
+  },
+  {
+   "ticker": "RCI",
+   "name": "Rogers Communication Inc. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 19313017939.0
+  },
+  {
+   "ticker": "SBAC",
+   "name": "SBA Communications Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 19184973812.0
+  },
+  {
+   "ticker": "BR",
+   "name": "Broadridge Financial Solutions Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 19165353917.0
+  },
+  {
+   "ticker": "BEKE",
+   "name": "KE Holdings Inc American Depositary Shares (each representing three Class A Ordinary Shares)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 18981310555.0
+  },
+  {
+   "ticker": "GFL",
+   "name": "GFL Environmental Inc. Subordinate voting shares no par value",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 18917510123.0
+  },
+  {
+   "ticker": "VIV",
+   "name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 18894022556.0
+  },
+  {
+   "ticker": "LUV",
+   "name": "Southwest Airlines Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18834515739.0
+  },
+  {
+   "ticker": "RBRK",
+   "name": "Rubrik Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 18817023383.0
+  },
+  {
+   "ticker": "MTZ",
+   "name": "MasTec Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 18812237118.0
+  },
+  {
+   "ticker": "EVRG",
+   "name": "Evergy Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 18731277053.0
+  },
+  {
+   "ticker": "LEN",
+   "name": "Lennar Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18705507776.0
+  },
+  {
+   "ticker": "BPYPO",
+   "name": "Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units Series 2",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 18686204368.0
+  },
+  {
+   "ticker": "BBY",
+   "name": "Best Buy Co. Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18680446061.0
+  },
+  {
+   "ticker": "VTRS",
+   "name": "Viatris Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 18658858586.0
+  },
+  {
+   "ticker": "TOST",
+   "name": "Toast Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 18657840000.0
+  },
+  {
+   "ticker": "FDXF",
+   "name": "FedEx Freight Holding Company Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18653882273.0
+  },
+  {
+   "ticker": "U",
+   "name": "Unity Software Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 18611360977.0
+  },
+  {
+   "ticker": "SBS",
+   "name": "Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American Depositary Shares (Each repstg 250 Common Shares)",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 18574294312.0
+  },
+  {
+   "ticker": "KSPI",
+   "name": "Joint Stock Company Kaspi.kz American Depository Shares",
+   "exchange": null,
+   "sector": null,
+   "market_cap": 18573518250.0
+  },
+  {
+   "ticker": "SSNC",
+   "name": "SS&C Technologies Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 18530705034.0
+  },
+  {
+   "ticker": "GPC",
+   "name": "Genuine Parts Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18526972878.0
+  },
+  {
+   "ticker": "FTAI",
+   "name": "FTAI Aviation Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 18482141025.0
+  },
+  {
+   "ticker": "TSN",
+   "name": "Tyson Foods Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 18473097395.0
+  },
+  {
+   "ticker": "SITM",
+   "name": "SiTime Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 18276423905.0
+  },
+  {
+   "ticker": "IP",
+   "name": "International Paper Company Common Stock",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 18248978582.0
+  },
+  {
+   "ticker": "OVV",
+   "name": "Ovintiv Inc. (DE)",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 18245458000.0
+  },
+  {
+   "ticker": "PAA",
+   "name": "Plains All American Pipeline L.P. Common Units representing Limited Partner Interests",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 18214198165.0
+  },
+  {
+   "ticker": "WF",
+   "name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 18159004984.0
+  },
+  {
+   "ticker": "TPG",
+   "name": "TPG Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 18056958639.0
+  },
+  {
+   "ticker": "CDW",
+   "name": "CDW Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 18033763701.0
+  },
+  {
+   "ticker": "GEN",
+   "name": "Gen Digital Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 17966589765.0
+  },
+  {
+   "ticker": "NTNX",
+   "name": "Nutanix Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 17914140131.0
+  },
+  {
+   "ticker": "MKSI",
+   "name": "MKS Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17796941266.0
+  },
+  {
+   "ticker": "CHRW",
+   "name": "C.H. Robinson Worldwide Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17755548653.0
+  },
+  {
+   "ticker": "NWS",
+   "name": "News Corporation Class B Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 17746526526.0
+  },
+  {
+   "ticker": "EWBC",
+   "name": "East West Bancorp Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 17637536223.0
+  },
+  {
+   "ticker": "ZBH",
+   "name": "Zimmer Biomet Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 17620347710.0
+  },
+  {
+   "ticker": "ITT",
+   "name": "ITT Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17580957000.0
+  },
+  {
+   "ticker": "TSCO",
+   "name": "Tractor Supply Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 17540816212.0
+  },
+  {
+   "ticker": "LNT",
+   "name": "Alliant Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 17506902876.0
+  },
+  {
+   "ticker": "ESS",
+   "name": "Essex Property Trust Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 17489370305.0
+  },
+  {
+   "ticker": "IREN",
+   "name": "IREN Limited Ordinary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 17423303121.0
+  },
+  {
+   "ticker": "FLUT",
+   "name": "Flutter Entertainment plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 17331543514.0
+  },
+  {
+   "ticker": "MGA",
+   "name": "Magna International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 17283732468.0
+  },
+  {
+   "ticker": "BEN",
+   "name": "Franklin Templeton Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 17251751479.0
+  },
+  {
+   "ticker": "SOJE",
+   "name": "Southern Company (The) Series 2020C 4.20% Junior Subordinated Notes due October 15 2060",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 17250356015.0
+  },
+  {
+   "ticker": "DD",
+   "name": "DuPont de Nemours Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17217979313.0
+  },
+  {
+   "ticker": "AEG",
+   "name": "Aegon Ltd. New York Registry Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 17209188848.0
+  },
+  {
+   "ticker": "NDSN",
+   "name": "Nordson Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17154847734.0
+  },
+  {
+   "ticker": "CLH",
+   "name": "Clean Harbors Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 17083537070.0
+  },
+  {
+   "ticker": "WCC",
+   "name": "WESCO International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 17039442401.0
+  },
+  {
+   "ticker": "ASND",
+   "name": "Ascendis Pharma A/S Ordinary Share",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 17035649870.0
+  },
+  {
+   "ticker": "ROL",
+   "name": "Rollins Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16898307734.0
+  },
+  {
+   "ticker": "CNH",
+   "name": "CNH Industrial N.V. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16839261659.0
+  },
+  {
+   "ticker": "BPYPN",
+   "name": "Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units Series 3",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 16828113115.0
+  },
+  {
+   "ticker": "DUKB",
+   "name": "Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 16732409062.0
+  },
+  {
+   "ticker": "BIP",
+   "name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16711476686.0
+  },
+  {
+   "ticker": "NLY",
+   "name": "Annaly Capital Management Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 16702312035.0
+  },
+  {
+   "ticker": "J",
+   "name": "Jacobs Solutions Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16674490909.0
+  },
+  {
+   "ticker": "OWL",
+   "name": "Blue Owl Capital Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 16612127636.0
+  },
+  {
+   "ticker": "WIT",
+   "name": "Wipro Limited Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 16588445910.0
+  },
+  {
+   "ticker": "JHX",
+   "name": "James Hardie Industries plc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16573917032.0
+  },
+  {
+   "ticker": "BSAC",
+   "name": "Banco Santander - Chile ADS",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 16522014167.0
+  },
+  {
+   "ticker": "FTV",
+   "name": "Fortive Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16502211721.0
+  },
+  {
+   "ticker": "APG",
+   "name": "APi Group Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16402644073.0
+  },
+  {
+   "ticker": "INVH",
+   "name": "Invitation Homes Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 16383888289.0
+  },
+  {
+   "ticker": "IEX",
+   "name": "IDEX Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16331905760.0
+  },
+  {
+   "ticker": "LDOS",
+   "name": "Leidos Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 16329673696.0
+  },
+  {
+   "ticker": "NVR",
+   "name": "NVR Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16303040535.0
+  },
+  {
+   "ticker": "LSCC",
+   "name": "Lattice Semiconductor Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 16293002652.0
+  },
+  {
+   "ticker": "MEDP",
+   "name": "Medpace Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 16264260927.0
+  },
+  {
+   "ticker": "ZBRA",
+   "name": "Zebra Technologies Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16230631573.0
+  },
+  {
+   "ticker": "ONON",
+   "name": "On Holding AG Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16208158540.0
+  },
+  {
+   "ticker": "GIB",
+   "name": "CGI Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 16134793550.0
+  },
+  {
+   "ticker": "VNOM",
+   "name": "Viper Energy Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 16108094977.0
+  },
+  {
+   "ticker": "CHTR",
+   "name": "Charter Communications Inc. Class A Common Stock New",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 16075222128.0
+  },
+  {
+   "ticker": "ZTO",
+   "name": "ZTO Express (Cayman) Inc. American Depositary Shares each representing one Class A ordinary share.",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16048579946.0
+  },
+  {
+   "ticker": "CX",
+   "name": "Cemex S.A.B. de C.V. Sponsored ADR",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 16045972077.0
+  },
+  {
+   "ticker": "TIGO",
+   "name": "Millicom International Cellular S.A. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 16041196673.0
+  },
+  {
+   "ticker": "RGA",
+   "name": "Reinsurance Group of America Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 16019151441.0
+  },
+  {
+   "ticker": "FUTU",
+   "name": "Futu Holdings Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 15917435722.0
+  },
+  {
+   "ticker": "NBIX",
+   "name": "Neurocrine Biosciences Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 15892849449.0
+  },
+  {
+   "ticker": "WY",
+   "name": "Weyerhaeuser Company Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 15885021440.0
+  },
+  {
+   "ticker": "SUN",
+   "name": "Sunoco LP Common Units representing limited partner interests",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 15884149979.0
+  },
+  {
+   "ticker": "NWSA",
+   "name": "News Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15882600188.0
+  },
+  {
+   "ticker": "WPC",
+   "name": "W. P. Carey Inc. REIT",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 15865167454.0
+  },
+  {
+   "ticker": "JLL",
+   "name": "Jones Lang LaSalle Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 15820208754.0
+  },
+  {
+   "ticker": "BALL",
+   "name": "Ball Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 15778967111.0
+  },
+  {
+   "ticker": "AKAM",
+   "name": "Akamai Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15745591682.0
+  },
+  {
+   "ticker": "APA",
+   "name": "APA Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 15727279284.0
+  },
+  {
+   "ticker": "JAZZ",
+   "name": "Jazz Pharmaceuticals plc Common Stock (Ireland)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 15628833559.0
+  },
+  {
+   "ticker": "KIM",
+   "name": "Kimco Realty Corporation (HC) Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 15626038444.0
+  },
+  {
+   "ticker": "CG",
+   "name": "The Carlyle Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 15489786729.0
+  },
+  {
+   "ticker": "DOCN",
+   "name": "DigitalOcean Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 15417030596.0
+  },
+  {
+   "ticker": "KEP",
+   "name": "Korea Electric Power Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 15349361081.0
+  },
+  {
+   "ticker": "STLA",
+   "name": "Stellantis N.V. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 15313198691.0
+  },
+  {
+   "ticker": "EMA",
+   "name": "Emera Incorporated Common Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 15292416000.0
+  },
+  {
+   "ticker": "AS",
+   "name": "Amer Sports Inc. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15280086404.0
+  },
+  {
+   "ticker": "SGI",
+   "name": "Somnigroup International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15275219061.0
+  },
+  {
+   "ticker": "H",
+   "name": "Hyatt Hotels Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15233906107.0
+  },
+  {
+   "ticker": "RBA",
+   "name": "RB Global Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15221136000.0
+  },
+  {
+   "ticker": "INIO",
+   "name": "INNIO N.V. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15202500000.0
+  },
+  {
+   "ticker": "TLN",
+   "name": "Talen Energy Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 15103053579.0
+  },
+  {
+   "ticker": "HST",
+   "name": "Host Hotels & Resorts Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 15083013644.0
+  },
+  {
+   "ticker": "SOLV",
+   "name": "Solventum Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 15067353372.0
+  },
+  {
+   "ticker": "AGI",
+   "name": "Alamos Gold Inc. Class A Common Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 15064159293.0
+  },
+  {
+   "ticker": "CRBG",
+   "name": "Corebridge Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 15051509205.0
+  },
+  {
+   "ticker": "LAMR",
+   "name": "Lamar Advertising Company Class A Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 15028337735.0
+  },
+  {
+   "ticker": "ARMK",
+   "name": "Aramark Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 15026627508.0
+  },
+  {
+   "ticker": "RBC",
+   "name": "RBC Bearings Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 15025794269.0
+  },
+  {
+   "ticker": "BURL",
+   "name": "Burlington Stores Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14984093653.0
+  },
+  {
+   "ticker": "PNFP",
+   "name": "Pinnacle Financial Partners Inc. Common stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14926906579.0
+  },
+  {
+   "ticker": "UNM",
+   "name": "Unum Group Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14872923672.0
+  },
+  {
+   "ticker": "TLK",
+   "name": "PT Telekomunikasi Indonesia Tbk",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 14824660714.0
+  },
+  {
+   "ticker": "SMTC",
+   "name": "Semtech Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14817776268.0
+  },
+  {
+   "ticker": "STRL",
+   "name": "Sterling Infrastructure Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 14801630918.0
+  },
+  {
+   "ticker": "WSE",
+   "name": "Wise Group plc Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 14790924831.0
+  },
+  {
+   "ticker": "DT",
+   "name": "Dynatrace Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14765118720.0
+  },
+  {
+   "ticker": "TRU",
+   "name": "TransUnion Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14761822000.0
+  },
+  {
+   "ticker": "WMG",
+   "name": "Warner Music Group Corp. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14746464388.0
+  },
+  {
+   "ticker": "PFGC",
+   "name": "Performance Food Group Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14744304130.0
+  },
+  {
+   "ticker": "LTM",
+   "name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2000) shares of Common Stock)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14720026750.0
+  },
+  {
+   "ticker": "ALB",
+   "name": "Albemarle Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 14594417031.0
+  },
+  {
+   "ticker": "FN",
+   "name": "Fabrinet Ordinary Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 14585864694.0
+  },
+  {
+   "ticker": "TU",
+   "name": "Telus Corporation Ordinary Shares",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 14563185000.0
+  },
+  {
+   "ticker": "ULS",
+   "name": "UL Solutions Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 14544744383.0
+  },
+  {
+   "ticker": "MAA",
+   "name": "Mid-America Apartment Communities Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 14543932420.0
+  },
+  {
+   "ticker": "BMNR",
+   "name": "BitMine Immersion Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14501562512.0
+  },
+  {
+   "ticker": "YUMC",
+   "name": "Yum China Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14496252897.0
+  },
+  {
+   "ticker": "IONQ",
+   "name": "IonQ Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14481897955.0
+  },
+  {
+   "ticker": "VLYPN",
+   "name": "Valley National Bancorp 8.250% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series C",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14450626660.0
+  },
+  {
+   "ticker": "PS",
+   "name": "Pershing Square Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14420000000.0
+  },
+  {
+   "ticker": "BBIO",
+   "name": "BridgeBio Pharma Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 14410359146.0
+  },
+  {
+   "ticker": "EQX",
+   "name": "Equinox Gold Corp. Common Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 14377267708.0
+  },
+  {
+   "ticker": "APOS",
+   "name": "Apollo Global Management Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14340872944.0
+  },
+  {
+   "ticker": "EXEL",
+   "name": "Exelixis Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 14301959262.0
+  },
+  {
+   "ticker": "SKM",
+   "name": "SK Telecom Co. Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Telecommunications",
+   "market_cap": 14296026600.0
+  },
+  {
+   "ticker": "OHI",
+   "name": "Omega Healthcare Investors Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 14274942430.0
+  },
+  {
+   "ticker": "LOGI",
+   "name": "Logitech International S.A. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14273012934.0
+  },
+  {
+   "ticker": "BWXT",
+   "name": "BWX Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 14257296308.0
+  },
+  {
+   "ticker": "IVZ",
+   "name": "Invesco Ltd Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14247197901.0
+  },
+  {
+   "ticker": "PAG",
+   "name": "Penske Automotive Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 14233084351.0
+  },
+  {
+   "ticker": "EQH",
+   "name": "Equitable Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14203288867.0
+  },
+  {
+   "ticker": "KKRS",
+   "name": "KKR Group Finance Co. IX LLC 4.625% Subordinated Notes due 2061",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14145390618.0
+  },
+  {
+   "ticker": "EG",
+   "name": "Everest Group Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14113193531.0
+  },
+  {
+   "ticker": "PTC",
+   "name": "PTC Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14101473680.0
+  },
+  {
+   "ticker": "SUI",
+   "name": "Sun Communities Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 14064965510.0
+  },
+  {
+   "ticker": "DOC",
+   "name": "Healthpeak Properties Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 14062908468.0
+  },
+  {
+   "ticker": "ARCC",
+   "name": "Ares Capital Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 14062477419.0
+  },
+  {
+   "ticker": "TYL",
+   "name": "Tyler Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 14031887163.0
+  },
+  {
+   "ticker": "VLYPP",
+   "name": "Valley National Bancorp 6.25% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series A",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13980359613.0
+  },
+  {
+   "ticker": "SLMBP",
+   "name": "SLM Corporation Floating Rate Non-Cumulative Preferred Stock Series B",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13945683078.0
+  },
+  {
+   "ticker": "VLYPO",
+   "name": "Valley National Bancorp 5.50% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series B",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13898021434.0
+  },
+  {
+   "ticker": "AIZ",
+   "name": "Assurant Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13812134473.0
+  },
+  {
+   "ticker": "CACI",
+   "name": "CACI International Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 13782855661.0
+  },
+  {
+   "ticker": "MKC",
+   "name": "McCormick & Company Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 13773265009.0
+  },
+  {
+   "ticker": "REG",
+   "name": "Regency Centers Corporation Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 13723053792.0
+  },
+  {
+   "ticker": "FIVE",
+   "name": "Five Below Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 13673357768.0
+  },
+  {
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 13625563202.0
+  },
+  {
+   "ticker": "TXT",
+   "name": "Textron Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13624803565.0
+  },
+  {
+   "ticker": "HL",
+   "name": "Hecla Mining Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13620104939.0
+  },
+  {
+   "ticker": "EMBJ",
+   "name": "Embraer S.A. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13615107162.0
+  },
+  {
+   "ticker": "RVTY",
+   "name": "Revvity Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13590107778.0
+  },
+  {
+   "ticker": "LECO",
+   "name": "Lincoln Electric Holdings Inc. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13567573032.0
+  },
+  {
+   "ticker": "JBS",
+   "name": "JBS N.V. Class A Common Shares",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 13531190278.0
+  },
+  {
+   "ticker": "SWK",
+   "name": "Stanley Black & Decker Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 13503908038.0
+  },
+  {
+   "ticker": "CHKP",
+   "name": "Check Point Software Technologies Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 13464010606.0
+  },
+  {
+   "ticker": "CET",
+   "name": "Central Securities Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13453866235.0
+  },
+  {
+   "ticker": "ONTO",
+   "name": "Onto Innovation Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13411010220.0
+  },
+  {
+   "ticker": "RNR",
+   "name": "RenaissanceRe Holdings Ltd. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13408380352.0
+  },
+  {
+   "ticker": "TRMB",
+   "name": "Trimble Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13396182268.0
+  },
+  {
+   "ticker": "BWA",
+   "name": "BorgWarner Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 13382916121.0
+  },
+  {
+   "ticker": "MAS",
+   "name": "Masco Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13381139000.0
+  },
+  {
+   "ticker": "W",
+   "name": "Wayfair Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 13372192674.0
+  },
+  {
+   "ticker": "MLI",
+   "name": "Mueller Industries Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13348296766.0
+  },
+  {
+   "ticker": "HTHT",
+   "name": "H World Group Limited American Depositary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 13321931839.0
+  },
+  {
+   "ticker": "DTM",
+   "name": "DT Midstream Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 13278310927.0
+  },
+  {
+   "ticker": "CSL",
+   "name": "Carlisle Companies Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 13188666428.0
+  },
+  {
+   "ticker": "GL",
+   "name": "Globe Life Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 13096298511.0
+  },
+  {
+   "ticker": "QNT",
+   "name": "Quantinuum Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 13061268730.0
+  },
+  {
+   "ticker": "CRL",
+   "name": "Charles River Laboratories International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 13023402976.0
+  },
+  {
+   "ticker": "SJM",
+   "name": "The J.M. Smucker Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 12974743807.0
+  },
+  {
+   "ticker": "QXO",
+   "name": "QXO Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12953071502.0
+  },
+  {
+   "ticker": "BNT",
+   "name": "Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12944257236.0
+  },
+  {
+   "ticker": "AA",
+   "name": "Alcoa Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12931562805.0
+  },
+  {
+   "ticker": "HMY",
+   "name": "Harmony Gold Mining Company Limited",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 12930218538.0
+  },
+  {
+   "ticker": "AUR",
+   "name": "Aurora Innovation Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12926801479.0
+  },
+  {
+   "ticker": "LII",
+   "name": "Lennox International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12921026759.0
+  },
+  {
+   "ticker": "SEIC",
+   "name": "SEI Investments Company Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12911663600.0
+  },
+  {
+   "ticker": "IESC",
+   "name": "IES Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12908193278.0
+  },
+  {
+   "ticker": "WSO",
+   "name": "Watsco Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12885947840.0
+  },
+  {
+   "ticker": "ALLE",
+   "name": "Allegion plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12885785752.0
+  },
+  {
+   "ticker": "TTMI",
+   "name": "TTM Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12852561408.0
+  },
+  {
+   "ticker": "AVY",
+   "name": "Avery Dennison Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12839269136.0
+  },
+  {
+   "ticker": "CNA",
+   "name": "CNA Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12780481829.0
+  },
+  {
+   "ticker": "ALLY",
+   "name": "Ally Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12706421177.0
+  },
+  {
+   "ticker": "AHR",
+   "name": "American Healthcare REIT Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 12661956360.0
+  },
+  {
+   "ticker": "HAS",
+   "name": "Hasbro Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12643226022.0
+  },
+  {
+   "ticker": "RPM",
+   "name": "RPM International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12617019263.0
+  },
+  {
+   "ticker": "BMRN",
+   "name": "BioMarin Pharmaceutical Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12614234005.0
+  },
+  {
+   "ticker": "PAYP",
+   "name": "PayPay Corporation American Depository Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12611723175.0
+  },
+  {
+   "ticker": "COKE",
+   "name": "Coca-Cola Consolidated Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 12605945998.0
+  },
+  {
+   "ticker": "SREA",
+   "name": "DBA Sempra 5.750% Junior Subordinated Notes due 2079",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 12599602913.0
+  },
+  {
+   "ticker": "PEN",
+   "name": "Penumbra Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12557150786.0
+  },
+  {
+   "ticker": "CHYM",
+   "name": "Chime Financial Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12551989355.0
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12520840190.0
+  },
+  {
+   "ticker": "BAX",
+   "name": "Baxter International Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12506133216.0
+  },
+  {
+   "ticker": "FMS",
+   "name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12481420271.0
+  },
+  {
+   "ticker": "CORT",
+   "name": "Corcept Therapeutics Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12441044511.0
+  },
+  {
+   "ticker": "GRAB",
+   "name": "Grab Holdings Limited Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12383454985.0
+  },
+  {
+   "ticker": "NXT",
+   "name": "Nextpower Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12381341253.0
+  },
+  {
+   "ticker": "MAIR",
+   "name": "Madison Air Solutions Corporation Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12377496838.0
+  },
+  {
+   "ticker": "TME",
+   "name": "Tencent Music Entertainment Group American Depositary Shares each representing two Class A Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12370889370.0
+  },
+  {
+   "ticker": "GDDY",
+   "name": "GoDaddy Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12351950571.0
+  },
+  {
+   "ticker": "AMKR",
+   "name": "Amkor Technology Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12334422972.0
+  },
+  {
+   "ticker": "ICLR",
+   "name": "ICON plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12321213939.0
+  },
+  {
+   "ticker": "PAC",
+   "name": "Grupo Aeroportuario Del Pacifico S.A. B. de C.V. Grupo Aeroportuario Del Pacifico S.A. de C.V. (each representing 10 Series B shares)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12305571394.0
+  },
+  {
+   "ticker": "UHAL",
+   "name": "U-Haul Holding Company Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12243874283.0
+  },
+  {
+   "ticker": "DOCU",
+   "name": "DocuSign Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12232765483.0
+  },
+  {
+   "ticker": "GGG",
+   "name": "Graco Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12228323481.0
+  },
+  {
+   "ticker": "HALO",
+   "name": "Halozyme Therapeutics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12196495080.0
+  },
+  {
+   "ticker": "CCK",
+   "name": "Crown Holdings Inc.",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 12192053283.0
+  },
+  {
+   "ticker": "AGNC",
+   "name": "AGNC Investment Corp. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 12186749275.0
+  },
+  {
+   "ticker": "TOL",
+   "name": "Toll Brothers Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 12173540170.0
+  },
+  {
+   "ticker": "CSGP",
+   "name": "CoStar Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12164031592.0
+  },
+  {
+   "ticker": "SF",
+   "name": "Stifel Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 12144691961.0
+  },
+  {
+   "ticker": "MDGL",
+   "name": "Madrigal Pharmaceuticals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12090158095.0
+  },
+  {
+   "ticker": "MANH",
+   "name": "Manhattan Associates Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 12076708850.0
+  },
+  {
+   "ticker": "BTSG",
+   "name": "BrightSpring Health Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 12063782774.0
+  },
+  {
+   "ticker": "AR",
+   "name": "Antero Resources Corporation Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 12045460020.0
+  },
+  {
+   "ticker": "GLPI",
+   "name": "Gaming and Leisure Properties Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 11958268368.0
+  },
+  {
+   "ticker": "GWRE",
+   "name": "Guidewire Software Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11953532461.0
+  },
+  {
+   "ticker": "DKS",
+   "name": "Dick's Sporting Goods Inc Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11945504267.0
+  },
+  {
+   "ticker": "WTRG",
+   "name": "Essential Utilities Inc. Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 11944241484.0
+  },
+  {
+   "ticker": "MICC",
+   "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 11939064911.0
+  },
+  {
+   "ticker": "EHC",
+   "name": "Encompass Health Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11935086396.0
+  },
+  {
+   "ticker": "FIG",
+   "name": "Figma Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11910105478.0
+  },
+  {
+   "ticker": "HBM",
+   "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 11832016406.0
+  },
+  {
+   "ticker": "FNF",
+   "name": "Fidelity National Financial Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11807189209.0
+  },
+  {
+   "ticker": "SUZ",
+   "name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 11806858524.0
+  },
+  {
+   "ticker": "BEPC",
+   "name": "Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 11804076849.0
+  },
+  {
+   "ticker": "DKNG",
+   "name": "DraftKings Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11793265910.0
+  },
+  {
+   "ticker": "NVMI",
+   "name": "Nova Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11777021360.0
+  },
+  {
+   "ticker": "TXRH",
+   "name": "Texas Roadhouse Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11767507881.0
+  },
+  {
+   "ticker": "AIT",
+   "name": "Applied Industrial Technologies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11741982471.0
+  },
+  {
+   "ticker": "PNW",
+   "name": "Pinnacle West Capital Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 11729468307.0
+  },
+  {
+   "ticker": "ELS",
+   "name": "Equity Lifestyle Properties Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 11708888787.0
+  },
+  {
+   "ticker": "FHN",
+   "name": "First Horizon Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11683344716.0
+  },
+  {
+   "ticker": "PSKY",
+   "name": "Paramount Skydance Corporation Class B Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11673845830.0
+  },
+  {
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11673269153.0
+  },
+  {
+   "ticker": "WTS",
+   "name": "Watts Water Technologies Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11657027230.0
+  },
+  {
+   "ticker": "AFG",
+   "name": "American Financial Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11637198538.0
+  },
+  {
+   "ticker": "SNN",
+   "name": "Smith & Nephew SNATS Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11619162651.0
+  },
+  {
+   "ticker": "DVA",
+   "name": "DaVita Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11585442000.0
+  },
+  {
+   "ticker": "ELAN",
+   "name": "Elanco Animal Health Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11573739692.0
+  },
+  {
+   "ticker": "IAG",
+   "name": "Iamgold Corporation Ordinary Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 11557040000.0
+  },
+  {
+   "ticker": "HRL",
+   "name": "Hormel Foods Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 11488572950.0
+  },
+  {
+   "ticker": "CR",
+   "name": "Crane Company Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11472503661.0
+  },
+  {
+   "ticker": "HUBS",
+   "name": "HubSpot Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11466982251.0
+  },
+  {
+   "ticker": "RTO",
+   "name": "Rentokil Initial plc American Depositary Shares (each representing five (5) Ordinary Shares)",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11371698000.0
+  },
+  {
+   "ticker": "JKHY",
+   "name": "Jack Henry & Associates Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11352633487.0
+  },
+  {
+   "ticker": "AMH",
+   "name": "American Homes 4 Rent Common Shares of Beneficial Interest",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 11332127233.0
+  },
+  {
+   "ticker": "TECH",
+   "name": "Bio-Techne Corp Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 11330901787.0
+  },
+  {
+   "ticker": "BJ",
+   "name": "BJ's Wholesale Club Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11318427977.0
+  },
+  {
+   "ticker": "KNX",
+   "name": "Knight-Swift Transportation Holdings Inc.",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11310728220.0
+  },
+  {
+   "ticker": "EGO",
+   "name": "Eldorado Gold Corporation Ordinary Shares",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 11270725691.0
+  },
+  {
+   "ticker": "UDR",
+   "name": "UDR Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 11228184559.0
+  },
+  {
+   "ticker": "TX",
+   "name": "Ternium S.A. Ternium S.A. American Depositary Shares (each representing ten shares USD1.00 par value)",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11209168414.0
+  },
+  {
+   "ticker": "ERIE",
+   "name": "Erie Indemnity Company Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11140803202.0
+  },
+  {
+   "ticker": "AEIS",
+   "name": "Advanced Energy Industries Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11135224389.0
+  },
+  {
+   "ticker": "HII",
+   "name": "Huntington Ingalls Industries Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 11116825188.0
+  },
+  {
+   "ticker": "EVR",
+   "name": "Evercore Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11101029909.0
+  },
+  {
+   "ticker": "HUT",
+   "name": "Hut 8 Corp. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 11092119525.0
+  },
+  {
+   "ticker": "SANM",
+   "name": "Sanmina Corporation Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 11075893617.0
+  },
+  {
+   "ticker": "BIPJ",
+   "name": "Brookfield Infrastructure Corporation 7.250% Subordinated Notes due 2084",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 11033041090.0
+  },
+  {
+   "ticker": "ARW",
+   "name": "Arrow Electronics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10990735353.0
+  },
+  {
+   "ticker": "AXSM",
+   "name": "Axsome Therapeutics Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10970638522.0
+  },
+  {
+   "ticker": "FROG",
+   "name": "JFrog Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10942374845.0
+  },
+  {
+   "ticker": "DECK",
+   "name": "Deckers Outdoor Corporation Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10936328579.0
+  },
+  {
+   "ticker": "SCI",
+   "name": "Service Corporation International Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10929557920.0
+  },
+  {
+   "ticker": "TFII",
+   "name": "TFI International Inc. Common Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10908260914.0
+  },
+  {
+   "ticker": "CART",
+   "name": "Maplebear Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10892078152.0
+  },
+  {
+   "ticker": "CLX",
+   "name": "Clorox Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10811231847.0
+  },
+  {
+   "ticker": "GNRC",
+   "name": "Generac Holdlings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10764382921.0
+  },
+  {
+   "ticker": "IT",
+   "name": "Gartner Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10737851879.0
+  },
+  {
+   "ticker": "FRO",
+   "name": "Frontline Plc Ordinary Shares",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10705934732.0
+  },
+  {
+   "ticker": "COO",
+   "name": "The Cooper Companies Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10680852452.0
+  },
+  {
+   "ticker": "LI",
+   "name": "Li Auto Inc. American Depositary Shares",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10673568396.0
+  },
+  {
+   "ticker": "TEM",
+   "name": "Tempus AI Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10665516325.0
+  },
+  {
+   "ticker": "NYT",
+   "name": "New York Times Company (The) Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10660600094.0
+  },
+  {
+   "ticker": "AM",
+   "name": "Antero Midstream Corporation Common Stock",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 10658804670.0
+  },
+  {
+   "ticker": "LFUS",
+   "name": "Littelfuse Inc. Common Stock",
+   "exchange": null,
+   "sector": "Energy",
+   "market_cap": 10655028354.0
+  },
+  {
+   "ticker": "ALGN",
+   "name": "Align Technology Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10641059431.0
+  },
+  {
+   "ticker": "GSAT",
+   "name": "Globalstar Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10631971783.0
+  },
+  {
+   "ticker": "PINS",
+   "name": "Pinterest Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10621257453.0
+  },
+  {
+   "ticker": "AES",
+   "name": "The AES Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10580294883.0
+  },
+  {
+   "ticker": "UMBF",
+   "name": "UMB Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10579079679.0
+  },
+  {
+   "ticker": "EGP",
+   "name": "EastGroup Properties Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 10571296389.0
+  },
+  {
+   "ticker": "JEF",
+   "name": "Jefferies Financial Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10569632453.0
+  },
+  {
+   "ticker": "DPZ",
+   "name": "Domino's Pizza Inc Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10553073465.0
+  },
+  {
+   "ticker": "MGM",
+   "name": "MGM Resorts International Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10540875850.0
+  },
+  {
+   "ticker": "DAR",
+   "name": "Darling Ingredients Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Staples",
+   "market_cap": 10536500701.0
+  },
+  {
+   "ticker": "RRX",
+   "name": "Regal Rexnord Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10482225784.0
+  },
+  {
+   "ticker": "BPOP",
+   "name": "Popular Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10474343219.0
+  },
+  {
+   "ticker": "FRHC",
+   "name": "Freedom Holding Corp. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10450971197.0
+  },
+  {
+   "ticker": "LULU",
+   "name": "lululemon athletica inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10398903423.0
+  },
+  {
+   "ticker": "MOH",
+   "name": "Molina Healthcare Inc Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10384146000.0
+  },
+  {
+   "ticker": "SAIL",
+   "name": "SailPoint Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10359597440.0
+  },
+  {
+   "ticker": "ALSN",
+   "name": "Allison Transmission Holdings Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10355285965.0
+  },
+  {
+   "ticker": "CPT",
+   "name": "Camden Property Trust Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 10349520689.0
+  },
+  {
+   "ticker": "GKOS",
+   "name": "Glaukos Corporation Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10346962229.0
+  },
+  {
+   "ticker": "ENLT",
+   "name": "Enlight Renewable Energy Ltd. Ordinary Shares",
+   "exchange": null,
+   "sector": "Utilities",
+   "market_cap": 10319557660.0
+  },
+  {
+   "ticker": "CGNX",
+   "name": "Cognex Corporation Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10313803753.0
+  },
+  {
+   "ticker": "CYTK",
+   "name": "Cytokinetics Incorporated Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10308586445.0
+  },
+  {
+   "ticker": "KRYS",
+   "name": "Krystal Biotech Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10292995219.0
+  },
+  {
+   "ticker": "XP",
+   "name": "XP Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10291083549.0
+  },
+  {
+   "ticker": "VSAT",
+   "name": "ViaSat Inc. Common Stock",
+   "exchange": null,
+   "sector": "Consumer Discretionary",
+   "market_cap": 10270384415.0
+  },
+  {
+   "ticker": "DCI",
+   "name": "Donaldson Company Inc. Common Stock",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10247116906.0
+  },
+  {
+   "ticker": "SSB",
+   "name": "SouthState Bank Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10201720977.0
+  },
+  {
+   "ticker": "BXP",
+   "name": "BXP Inc. Common Stock",
+   "exchange": null,
+   "sector": "Real Estate",
+   "market_cap": 10191197119.0
+  },
+  {
+   "ticker": "WTFC",
+   "name": "Wintrust Financial Corporation Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10139797510.0
+  },
+  {
+   "ticker": "UHS",
+   "name": "Universal Health Services Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10139438041.0
+  },
+  {
+   "ticker": "CFR",
+   "name": "Cullen/Frost Bankers Inc. Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10115336247.0
+  },
+  {
+   "ticker": "AG",
+   "name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
+   "exchange": null,
+   "sector": "Basic Materials",
+   "market_cap": 10072541937.0
+  },
+  {
+   "ticker": "RYAN",
+   "name": "Ryan Specialty Holdings Inc. Class A Common Stock",
+   "exchange": null,
+   "sector": "Finance",
+   "market_cap": 10063753642.0
+  },
+  {
+   "ticker": "OC",
+   "name": "Owens Corning Inc Common Stock New",
+   "exchange": null,
+   "sector": "Industrials",
+   "market_cap": 10044716149.0
+  },
+  {
+   "ticker": "ENSG",
+   "name": "The Ensign Group Inc. Common Stock",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10015253459.0
+  },
+  {
+   "ticker": "FDS",
+   "name": "FactSet Research Systems Inc. Common Stock",
+   "exchange": null,
+   "sector": "Technology",
+   "market_cap": 10009566422.0
+  },
+  {
+   "ticker": "ABVX",
+   "name": "Abivax SA American Depositary Shares",
+   "exchange": null,
+   "sector": "Health Care",
+   "market_cap": 10002463076.0
+  }
+ ]
+}
